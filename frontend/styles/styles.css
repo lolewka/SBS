@@ -8,6 +8,19 @@
     src: url("../fonts/OpenSans-Regular.ttf");
 }
 
+@font-face {
+    font-family: FatalTrialBold;
+    src: url("../fonts/Fatal-TRIAL-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+body {
+}
+
 .header {
     background-color: #0C2965;
     padding-top: 44px;
@@ -69,6 +82,7 @@
     height: 728px;
     /*flex-shrink:0 ;*/
 }
+
 .close {
     position: absolute;
     top: 10px;
@@ -84,6 +98,7 @@
 .menu ul li {
     margin-bottom: 40px;
 }
+
 .menu ul li:last-child {
     margin-bottom: 0;
 }
@@ -100,3 +115,84 @@
     display: block;
 }
 
+/*MAIN главная страница*/
+.main {
+    position: relative;
+    padding: 148px 0 198px 0;
+    background-color: #0C2965;
+
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-info-title {
+    font-size: 180px;
+    font-family: FatalTrialBold, sans-serif;
+    color: #ffffff;
+    margin-bottom: 38px;
+}
+
+.main-info-title span {
+    font-size: 72px;
+    transform: rotate(-90deg);
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.main-info-description {
+    width: 600px;
+    font-size: 20px;
+    font-family: OpenSansLight, sans-serif;
+    color: #F1F3F6;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.btn {
+    width: 220px;
+    height: 60px;
+    background-color: #FFA500;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: OpenSansRegular, sans-serif;
+    border: none;
+}
+
+.main-images-left {
+    position: absolute;
+    bottom: 200px;
+    display: inline-block;
+}
+
+.main-image-right {
+    position: absolute;
+    bottom: 118px;
+    display: inline-block;
+    left: 1274px;
+}
+
+.main-image-bottom {
+    position: absolute;
+    background: rgba(168, 233, 252, 0.35);
+    transform: rotate(-2deg);
+    bottom: 18px;
+    height: 39px;
+}
+
+.main-image-bottom-descriptions {
+    font-size: 15px;
+    color: #F1F3F6;
+    font-family: OpenSansRegular, sans-serif;
+}
