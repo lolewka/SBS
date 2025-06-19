@@ -18,6 +18,11 @@
     src: url("../fonts/OpenSans-Light.ttf");
 }
 
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
 body {
 }
 
@@ -29,6 +34,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    box-sizing: content-box;
 }
 
 .header .container {
@@ -254,7 +260,7 @@ body {
 /*}*/
 .about {
     padding: 147px 0 140px 0;
-    background-color: white;
+    background-color: #FAFAFA;
     position: relative;
     z-index: 0;
     overflow: hidden; /* чтобы фон не выходил за границы */
@@ -288,6 +294,7 @@ body {
     z-index: 2;
 
 }
+
 .about-info-text {
     width: 630px;
 }
@@ -307,10 +314,68 @@ body {
     line-height: 22px;
 }
 
-.about-info-descriptions  p{
+.about-info-descriptions p {
     margin-bottom: 20px;
 }
-.about-info-descriptions  p:last-child {
+
+.about-info-descriptions p:last-child {
     margin-bottom: 0;
 }
+
+/*!*section advantage*!*/
+.advantages {
+    padding-bottom: 140px;
+    background-color: #FAFAFA;
+}
+
+.advantages-title {
+    font-family: "OpenSansBold", sans-serif;
+    color: #1e1a2b;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.advantages-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 60px; /* Расстояние между карточками */
+}
+
+.advantage-item {
+    box-sizing: border-box;
+}
+
+.advantage-title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+.advantage-title-text {
+    font-size: 20px;
+    font-family: "OpenSansBold", sans-serif;
+    line-height: 150%;
+}
+
+.advantage-content {
+    font-size: 16px;
+    line-height: 140%;
+    font-family: "OpenSansRegular", sans-serif;
+}
+
+
+/*.advantage-title svg {*/
+/*    width: 56px;*/
+/*    height: 60px;*/
+/*}*/
+
+
+
+
 
