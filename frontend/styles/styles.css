@@ -231,11 +231,13 @@ body {
     animation: marquee 15s linear infinite;
 
 }
-.main-image-bottom-descriptions  span {
+
+.main-image-bottom-descriptions span {
     font-size: 15px;
     color: #F1F3F6;
     font-family: OpenSansRegular, sans-serif;
 }
+
 @keyframes marquee {
     0% {
         transform: translateX(10%);
@@ -244,3 +246,71 @@ body {
         transform: translateX(0%);
     }
 }
+
+/*section about*/
+/*.about {*/
+/*    padding: 147px 0 140px 0;*/
+/*    background-color: #FAFAFA;*/
+/*}*/
+.about {
+    padding: 147px 0 140px 0;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    overflow: hidden; /* чтобы фон не выходил за границы */
+}
+
+/*.about::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100vw; !* на всю ширину экрана *!*/
+/*    height: 100%;*/
+/*    background-color: #0d3b66; !* синий фон *!*/
+/*    z-index: -1;*/
+/*}*/
+.about .container::before {
+    content: "";
+    position: absolute;
+    top: 147px;
+    left: 0;
+    width: 100vw;
+    height: 625px;
+    background-color: #D4DDF2;
+    z-index: -1;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+.about-info-text {
+    width: 630px;
+}
+
+.about-info-title {
+    font-size: 48px;
+    color: #1F1F1F;
+    font-family: OpenSansRegular, sans-serif;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.about-info-descriptions {
+    font-size: 16px;
+    color: #313131;
+    font-family: OpenSansRegular, sans-serif;
+    line-height: 22px;
+}
+
+.about-info-descriptions  p{
+    margin-bottom: 20px;
+}
+.about-info-descriptions  p:last-child {
+    margin-bottom: 0;
+}
+
