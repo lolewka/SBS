@@ -168,7 +168,7 @@ body {
     margin-bottom: 80px;
 }
 
-.btn {
+.button {
     width: 220px;
     height: 60px;
     background-color: #FFA500;
@@ -177,28 +177,50 @@ body {
     font-family: OpenSansRegular, sans-serif;
     border: none;
 }
-
 .block-img {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    /*z-index: 99;*/
-    /*bottom: 77vh;*/
+    position: absolute; /* позволяет разместить блок поверх */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0; /* ниже контента */
+    pointer-events: none; /* чтобы svg не перекрывал клики */
+}
+
+.main-images-left,
+.main-image-right {
+    position: absolute;
 }
 
 .main-images-left {
-    position: absolute;
-    bottom: -86px;
-    display: inline-block;
+    left: 0;
+    top: 0;
 }
 
 .main-image-right {
-    position: absolute;
-    bottom: -99px;
-    display: inline-block;
-    left: 1225px;
+    right: 0;
+    top: 0;
 }
+/*.block-img {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    position: relative;*/
+/*    !*z-index: 99;*!*/
+/*    !*bottom: 77vh;*!*/
+/*}*/
+
+/*.main-images-left {*/
+/*    position: absolute;*/
+/*    bottom: -86px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.main-image-right {*/
+/*    position: absolute;*/
+/*    bottom: -99px;*/
+/*    display: inline-block;*/
+/*    left: 1225px;*/
+/*}*/
 
 .main-image-bottom {
     width: 100%;
