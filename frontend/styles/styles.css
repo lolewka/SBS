@@ -200,23 +200,6 @@ body {
     left: 1225px;
 }
 
-/*.main-image-bottom {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    align-items: center;*/
-/*    position: absolute;*/
-/*    background: rgba(168, 233, 252, 0.35);*/
-/*    transform: rotate(-2deg);*/
-/*    bottom: 39px;*/
-/*    height: 39px;*/
-/*}*/
-
-/*.main-image-bottom-descriptions {*/
-/*    font-size: 15px;*/
-/*    color: #F1F3F6;*/
-/*    font-family: OpenSansRegular, sans-serif;*/
-/*}*/
-
 .main-image-bottom {
     width: 100%;
     overflow: hidden;
@@ -253,11 +236,6 @@ body {
     }
 }
 
-/*section about*/
-/*.about {*/
-/*    padding: 147px 0 140px 0;*/
-/*    background-color: #FAFAFA;*/
-/*}*/
 .about {
     padding: 147px 0 140px 0;
     background-color: #FAFAFA;
@@ -266,16 +244,6 @@ body {
     overflow: hidden; /* чтобы фон не выходил за границы */
 }
 
-/*.about::before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100vw; !* на всю ширину экрана *!*/
-/*    height: 100%;*/
-/*    background-color: #0d3b66; !* синий фон *!*/
-/*    z-index: -1;*/
-/*}*/
 .about .container::before {
     content: "";
     position: absolute;
@@ -326,6 +294,7 @@ body {
 .advantages {
     padding-bottom: 140px;
     background-color: #FAFAFA;
+
 }
 
 .advantages-title {
@@ -369,11 +338,97 @@ body {
     font-family: "OpenSansRegular", sans-serif;
 }
 
+/*Directions*/
 
-/*.advantage-title svg {*/
-/*    width: 56px;*/
-/*    height: 60px;*/
+
+.directions {
+    padding: 80px 0 80px 0;
+    background-color: #FAFAFA;
+    position: relative;
+    z-index: 0;
+}
+
+.directions .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 751px;
+    background-color: #D4DDF2;
+    z-index: -1;
+}
+
+.common-title {
+    font-family: "OpenSansBold", sans-serif;
+    margin-bottom: 60px;
+    font-size: 48px;
+    line-height: 120%; /* 57.6px */
+    text-align: center;
+}
+
+
+.directions-items {
+    display: grid; /*Отображение элементов*/
+    grid-template-columns: repeat(3, 360px); /*Ставит в ряд блоки карточек*/
+    gap: 61px; /*Создаем отступы карточек*/
+
+
+}
+
+.directions-item {
+    background-color: white;
+}
+
+.directions-item-image {
+    max-width: 100%;
+    padding: 15px;
+}
+
+/*.directions-items img {*/
+/*    height: 272px;!*Высота карттинки*!*/
+/*    top: -70px;!*Чтоб уходила вверх*!*/
+/*    position: relative;!* Позиционирование *!*/
+/*    max-width: 100%;!*Максимальная ширина*!*/
 /*}*/
+
+.directions-item-details {
+    padding: 30px 15px 15px 15px; /*Создаем отступы*/
+    position: relative;
+
+}
+
+.directions-item-title {
+    font-family: 'FatalTrialBold', sans-serif; /*Стиль текста*/
+    font-size: 80px; /*Размер тектса*/
+    position: absolute; /* Позиционирование */
+    top: -48px;
+    left: 187px;
+    width: 89px;
+    color: #8A8A8A;
+    text-align: left;
+}
+
+.directions-item:nth-child(3) .directions-item-title {
+    color: black;
+}
+
+.directions-item-text {
+    font-family: 'openSansRegular', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 40px;
+    height: 198px;
+}
+.orange-button {
+    width: 180px;
+    height: 50px;
+    background-color: #FFA500;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: OpenSansRegular, sans-serif;
+    border: none;
+}
 
 
 
