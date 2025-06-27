@@ -23,6 +23,11 @@ const swiper = new Swiper('.mySwiper', {
     slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
+    autoplay: {
+        delay: 20000, // задержка между слайдами (в мс)
+        disableOnInteraction: false, // не отключать после клика
+        pauseOnMouseEnter: true, // пауза при наведении мыши
+    },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
