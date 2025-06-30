@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: OpenSansRegular;
-    src: url("../fonts/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSans-Regular.ttf") format('ttf');
 }
 
 @font-face {
@@ -696,4 +696,114 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 60px;
+}
+
+/*contacts*/
+.contacts {
+    background-color: #FAFAFA;
+    position: relative;
+    z-index: 0;
+    overflow: hidden; /* чтобы фон не выходил за границы */
+}
+
+.contacts .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 636px;
+    background-color: #D4DDF2;
+    z-index: -1;
+}
+
+.contacts .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-map {
+    margin-right: 60px;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+
+}
+
+.contacts-info-title {
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.contacts-info-number {
+    display: flex;
+    align-items: center;
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.contacts-info-number a {
+    text-decoration: none;
+    margin-left: 17px;
+    color: black;
+
+}
+
+.contacts-info-address {
+    display: flex;
+    align-items: center;
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contacts-info-address a {
+    text-decoration: none;
+    margin-left: 17px;
+    color: black;
+
+
+}
+
+.contacts-info-time {
+    display: flex;
+    flex-direction: column;
+    font-family: 'OpenSansLight', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 150%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contacts-info-email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.contacts-info-email a {
+    text-decoration: none;
+    font-family: 'OpenSansBold', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 17px;
+    color: black;
+
+}
+
+.contacts-info-descriptions {
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 140%;
 }
