@@ -807,3 +807,90 @@ body {
     text-align: left;
     line-height: 140%;
 }
+
+/*section order*/
+
+.order {
+    background-color: #FAFAFA;
+    position: relative;
+    z-index: 0;
+    overflow: hidden; /* чтобы фон не выходил за границы */
+    padding: 140px 0 140px 0;
+}
+
+.order .container::before {
+    content: "";
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100vw;
+    height: 744px;
+    background-color: #D4DDF2;
+    z-index: -1;
+}
+
+.order .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset {
+    border: none;
+}
+
+.order-text {
+}
+
+.order-text-title {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+legend {
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px; /* 10px — по вертикали, 20px — по горизонтали */
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 16px;
+}
+
+.order-contact {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.order-input {
+    width: 360px;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.order-contact label {
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.order-img {
+    background: black;
+    height: 744px;
+}
+.order-img img {
+    position: relative;
+    top: 90px;
+}
