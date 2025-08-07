@@ -1,0 +1,30 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .directions-items {
+        grid-template-columns: repeat(3, 300px);
+    }
+
+    .directions-item-image img {
+        max-width: 100%;
+    }
+
+    .contacts-map iframe {
+        max-width: 100%;
+    }
+
+    .order .container {
+        align-items: end;
+    }
+
+    .order-img {
+        height: 554px;
+    }
+
+    .order-img img {
+        max-width: 100%;
+    }
+}

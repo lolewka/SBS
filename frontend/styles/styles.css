@@ -834,6 +834,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 fieldset {
     border: none;
 }
@@ -890,7 +891,128 @@ legend {
     background: black;
     height: 744px;
 }
+
 .order-img img {
     position: relative;
     top: 90px;
+}
+
+/*footer*/
+.footer {
+    background-color: #212D44;
+}
+
+
+.footer .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rights {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+    color: #F1F3F6;
+
+}
+
+.rights span {
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 13px;
+    color: #BBB;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+
+.footer-menu ul li {
+    margin-bottom: 20px;
+}
+
+.footer-menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 20px;
+    color: #F1F3F6;
+    line-height: 30px;
+}
+
+
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footer-contacts-info-title {
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.footer-contacts-info-number {
+    display: flex;
+    align-items: center;
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #F1F3F6;
+}
+
+
+.footer-contacts-info-number a {
+    text-decoration: none;
+    margin-left: 17px;
+    color: #F1F3F6;
+}
+
+.footer-contacts-info-address {
+    display: flex;
+    align-items: center;
+    font-family: "OpenSansLight", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #F1F3F6;
+}
+
+.footer-contacts-info-address a {
+    text-decoration: none;
+    margin-left: 17px;
+    color: white;
+}
+
+.footer-contacts-info-email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-contacts-info-email a {
+    text-decoration: none;
+    font-family: 'OpenSansLight', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 17px;
+    color: #F1F3F6;
+
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
 }
