@@ -5,23 +5,23 @@
     <title>Title</title>
     <!--    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/adaptive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles1.css">
+    <link rel="stylesheet" href="styles/adaptive1.css">
     <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">-->
 </head>
 <body>
 
-<header class="header ">
+<header class="header">
     <div class="container">
         <div class="logo">
             <a href="#"><img src="img/sbs_logo.png" alt="Логотип"></a>
-            <div class="burger" id="burger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                    <path d="M5 10H35M5 20H35M5 30H20H35" stroke="white" stroke-width="1.5" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                </svg>
-            </div>
+        </div>
+        <div class="burger" id="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M5 10H35M5 20H35M5 30H20H35" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
         </div>
         <nav class="menu" id="menu">
             <div class="close" id="close">
@@ -44,7 +44,13 @@
             </ul>
         </nav>
         <div class="telephone-block">
-            <a href="tel:+79001234567">+7 (965) xxx-xx-xx</a>
+            <a href="tel:+79001234567" class="icon-tel">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <path d="M29.5118 22.8452L33.9254 27.2587C34.5189 27.8522 34.5189 28.8145 33.9254 29.408C30.7167 32.6167 25.6369 32.9777 22.0066 30.255L19.381 28.2857C16.4751 26.1063 13.8937 23.525 11.7143 20.6191L9.74501 17.9934C7.02234 14.3632 7.38336 9.28334 10.5921 6.07465C11.1855 5.48115 12.1478 5.48115 12.7413 6.07464L17.1548 10.4882C17.8057 11.1391 17.8057 12.1943 17.1548 12.8452L15.4529 14.5471C15.1824 14.8176 15.1154 15.2308 15.2864 15.5729C17.2642 19.5285 20.4716 22.7358 24.4271 24.7136C24.7692 24.8846 25.1824 24.8176 25.4529 24.5471L27.1548 22.8452C27.8057 22.1943 28.861 22.1943 29.5118 22.8452Z"
+                          stroke="white" stroke-width="1.5"/>
+                    <a href="tel:+79001234567">+7 (965) xxx-xx-xx</a>
+                </svg>
+            </a>
             <p class="title-telephone-block">по всем вопросам</p>
         </div>
     </div>
@@ -54,16 +60,16 @@
     <section class="main ">
         <div class="block-img">
             <div class="main-images-left">
-                <svg xmlns="http://www.w3.org/2000/svg" width="214" height="528" viewBox="0 0 214 528" fill="none">
-                    <path d="M161.399 3.32434L38.3535 143.664C40.8896 146.661 42.4347 150.527 42.4756 154.759C42.5121 158.547 41.3374 162.063 39.3145 164.943L185.545 305.821C188.355 303.817 191.787 302.623 195.501 302.587C205.138 302.494 213.026 310.231 213.119 319.867C213.212 329.503 205.474 337.391 195.837 337.484C192.252 337.518 188.91 336.468 186.12 334.642L-4.10645 527.613L-7.08984 524.673L182.907 331.937C180.036 328.86 178.262 324.743 178.219 320.203C178.176 315.792 179.774 311.748 182.444 308.65L36.5137 168.061C33.486 170.711 29.5326 172.333 25.1934 172.375C15.5558 172.468 7.66803 164.731 7.5752 155.095C7.48261 145.459 15.22 137.572 24.8574 137.48C28.7518 137.442 32.36 138.684 35.2842 140.812L158.25 0.563599L161.399 3.32434Z"
-                          fill="#A8E9FC" fill-opacity="0.5"/>
-                </svg>
+                <!--                <svg xmlns="http://www.w3.org/2000/svg" width="214" height="528" viewBox="0 0 214 528" fill="none">-->
+                <!--                    <path d="M161.399 3.32434L38.3535 143.664C40.8896 146.661 42.4347 150.527 42.4756 154.759C42.5121 158.547 41.3374 162.063 39.3145 164.943L185.545 305.821C188.355 303.817 191.787 302.623 195.501 302.587C205.138 302.494 213.026 310.231 213.119 319.867C213.212 329.503 205.474 337.391 195.837 337.484C192.252 337.518 188.91 336.468 186.12 334.642L-4.10645 527.613L-7.08984 524.673L182.907 331.937C180.036 328.86 178.262 324.743 178.219 320.203C178.176 315.792 179.774 311.748 182.444 308.65L36.5137 168.061C33.486 170.711 29.5326 172.333 25.1934 172.375C15.5558 172.468 7.66803 164.731 7.5752 155.095C7.48261 145.459 15.22 137.572 24.8574 137.48C28.7518 137.442 32.36 138.684 35.2842 140.812L158.25 0.563599L161.399 3.32434Z"-->
+                <!--                          fill="#A8E9FC" fill-opacity="0.5"/>-->
+                <!--                </svg>-->
             </div>
             <div class="main-image-right">
-                <svg xmlns="http://www.w3.org/2000/svg" width="409" height="729" viewBox="0 0 409 729" fill="none">
-                    <path d="M317.126 175.72C320.682 173.267 325.008 171.828 329.674 171.828C341.785 171.828 351.603 181.52 351.603 193.475C351.603 205.43 341.785 215.122 329.674 215.122C325.17 215.121 320.984 213.78 317.501 211.481L143.945 381.984C147.802 385.885 150.18 391.218 150.18 397.1C150.18 403.053 147.744 408.444 143.804 412.358L489 724.693L485.444 728.523L139.654 415.65L139.777 415.517C136.428 417.564 132.48 418.746 128.251 418.747C116.141 418.747 106.323 409.055 106.323 397.1C106.323 385.145 116.141 375.454 128.251 375.454C132.498 375.454 136.462 376.646 139.82 378.708L313.496 208.086C309.925 204.236 307.746 199.107 307.746 193.475C307.746 188.002 309.804 183.003 313.197 179.192L0.0952148 -124.407L3.78271 -128.113L317.126 175.72Z"
-                          fill="#A8E9FC" fill-opacity="0.5"/>
-                </svg>
+                <!--                <svg xmlns="http://www.w3.org/2000/svg" width="409" height="729" viewBox="0 0 409 729" fill="none">-->
+                <!--                    <path d="M317.126 175.72C320.682 173.267 325.008 171.828 329.674 171.828C341.785 171.828 351.603 181.52 351.603 193.475C351.603 205.43 341.785 215.122 329.674 215.122C325.17 215.121 320.984 213.78 317.501 211.481L143.945 381.984C147.802 385.885 150.18 391.218 150.18 397.1C150.18 403.053 147.744 408.444 143.804 412.358L489 724.693L485.444 728.523L139.654 415.65L139.777 415.517C136.428 417.564 132.48 418.746 128.251 418.747C116.141 418.747 106.323 409.055 106.323 397.1C106.323 385.145 116.141 375.454 128.251 375.454C132.498 375.454 136.462 376.646 139.82 378.708L313.496 208.086C309.925 204.236 307.746 199.107 307.746 193.475C307.746 188.002 309.804 183.003 313.197 179.192L0.0952148 -124.407L3.78271 -128.113L317.126 175.72Z"-->
+                <!--                          fill="#A8E9FC" fill-opacity="0.5"/>-->
+                <!--                </svg>-->
             </div>
         </div>
         <div class="container">
@@ -71,7 +77,7 @@
                 <img class="main-info-title" src="img/img.png">
                 <!--                    SKILL BOX<span>SCIENCE</span>NG-->
                 <h1 class="main-info-description">
-                    Научный подход к силе — боксерский зал нового поколения
+                    <span>Научный подход к силе — боксерский зал нового поколения</span>
                     Запишись на тренировку и узнай, что такое умный бокс
                 </h1>
                 <div class="main-info-actions">
@@ -79,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-image-bottom">
+        <div class="main-image-bottom" style="display: none">
             <div class="main-image-bottom-descriptions">
                 <span> SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE *</span>
                 <span> SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE * SKILL BOXING SCIENCE </span>
@@ -120,592 +126,591 @@
     </section>
 
 
-    <section class="advantages">
-        <div class="container">
-            <div class="advantages-info" id="meet-advantages">
-                <div id="advantages-title" class="advantages-title">
-                    Сильные стороны Skill Boxing Science
-                </div>
-                <div class="advantages-items" id="meet-advantages-items">
-                    <div class="advantage-item">
-                        <div class="advantage-title">
-                            <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M56 31.5789C56 47.0817 45.4983 60 29.9371 60C14.3759 60 0 44.6255 0 29.1228C0 13.6201 17.5457 0 33.1069 0C48.6681 0 56 16.0762 56 31.5789Z"
-                                      fill="#0C2965"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M37.4667 14.5902C33.9982 12.48 26.9098 17.7987 21.6343 26.4699C16.3588 35.1411 14.8938 43.8811 18.3623 45.9913C21.8308 48.1015 28.9192 42.7828 34.1947 34.1116C39.4702 25.4405 40.9352 16.7004 37.4667 14.5902Z"
-                                      stroke="#F1F3F6" stroke-width="1.5" stroke-linecap="round"
-                                      stroke-linejoin="round"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M12.214 20.7386C10.1037 24.207 15.4225 31.2954 24.0936 36.571C32.7648 41.8465 41.5048 43.3114 43.615 39.843C45.7253 36.3745 40.4065 29.2861 31.7354 24.0105C23.0642 18.735 14.3242 17.2701 12.214 20.7386Z"
-                                      stroke="#F1F3F6" stroke-width="1.5" stroke-linecap="round"
-                                      stroke-linejoin="round"/>
-                                <path d="M27.9281 30.2875L27.9146 30.2908" stroke="#F1F3F6" stroke-width="2"
-                                      stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <div class="advantage-title-text">Первый в России сайт о спортивной науке в боксе
-                            </div>
-                        </div>
-                        <div class="advantage-content">
-                            Мы стали первыми, кто объединил бокс и научный подход на одной платформе. Здесь спорт
-                            встречается с доказательной медициной, физиологией и современными технологиями.
-                            <a href="#" target="_blank">отзывам</a> выпускников.
-                        </div>
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages-info" id="meet-advantages">
+                    <div id="advantages-title" class="advantages-title">
+                        Сильные стороны Skill Boxing Science
                     </div>
-                    <div class="advantage-item">
-                        <div class="advantage-title">
-                            <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M56 24.6729C56 42.0591 51.4391 60 35.4495 60C19.46 60 0 50.0473 0 32.6611C0 15.2749 18.0286 0 34.0181 0C50.0076 0 56 7.28666 56 24.6729Z"
-                                      fill="#0C2965"/>
-                                <path d="M28.7707 24.6529C26.5486 19.618 21.3725 19.2198 18.9578 21.3648C16.9927 23.0731 16.0551 27.3501 17.8404 31.2419C20.9358 37.9336 28.7707 41.5171 28.7707 41.5171C28.7707 41.5171 36.6055 37.9978 39.7009 31.3061C41.4863 27.4529 40.5486 23.1887 38.5835 21.429C36.1688 19.2198 30.9927 19.618 28.7707 24.6529Z"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M17.6479 30.7795H23.6333L27.4865 34.6327L31.3397 26.9263L33.9085 30.7795H39.8938"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <div class="advantage-title-text">Индивидуальный подход по физиологии
-                            </div>
-                        </div>
-                        <div class="advantage-content">
-                            Тренировки подбираются с учётом сердечного ритма, ИМТ и других показателей. Мы используем
-                            нагрудные датчики, чтобы адаптировать нагрузку под ваш организм в реальном времени.
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="advantage-title">
-                            <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M56 34.8571C56 52.5746 41.8078 60 25.9636 60C10.1195 60 0 38.2888 0 20.5714C0 2.85402 17.8647 0 33.7089 0C49.553 0 56 17.1397 56 34.8571Z"
-                                      fill="#0C2965"/>
-                                <path d="M39.5919 22.1227C42.2369 23.2529 45.2116 23.3404 47.9185 22.3675M24.6532 45.6329C25.6252 42.9175 25.5377 39.9355 24.4083 37.2818C23.5242 35.1689 23.285 32.8416 23.7208 30.5929C24.1566 28.3443 25.2479 26.2749 26.8573 24.6451C28.5071 23.0124 30.6033 21.9046 32.8817 21.4614"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M31.0203 37.9676C33.3103 37.5221 35.416 36.4053 37.0693 34.7594M37.0693 34.7594C38.6815 33.1314 39.7747 31.0619 40.2106 28.8125C40.6465 26.5632 40.4056 24.2351 39.5183 22.1227C38.4119 19.4684 38.3506 16.4937 39.3468 13.7961M37.0693 34.7594L26.955 24.6451M16.0815 37.0615C18.7895 36.084 21.769 36.1804 24.4081 37.3308"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <div class="advantage-title-text">Научно-спортивная команда</div>
-                        </div>
-                        <div class="advantage-content">
-                            Нас объединяет страсть к знаниям. Мы проводим исследования в области спорта, медицины,
-                            физиологии, психологии и питания, чтобы развиваться и давать нашим ученикам только
-                            проверенные решения.
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="advantage-title">
-                            <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M56 23.0854C56 42.1613 43.4925 60 24.5484 60C5.60428 60 0 44.6223 0 25.5464C0 6.47054 2.96894 0 21.913 0C40.8571 0 56 4.00957 56 23.0854Z"
-                                      fill="#0C2965"/>
-                                <path d="M41.9284 43.8857H40.857C39.7204 43.8857 38.6303 43.4342 37.8265 42.6305C37.0228 41.8268 36.5713 40.7367 36.5713 39.6C36.5713 40.7367 36.1198 41.8268 35.316 42.6305C34.5123 43.4342 33.4222 43.8857 32.2856 43.8857C31.1489 43.8857 30.0588 43.4342 29.2551 42.6305C28.4514 41.8268 27.9999 40.7367 27.9999 39.6C27.9999 40.7367 27.5483 41.8268 26.7446 42.6305C25.9409 43.4342 24.8508 43.8857 23.7141 43.8857C22.5775 43.8857 21.4874 43.4342 20.6837 42.6305C19.88 41.8268 19.4284 40.7367 19.4284 39.6C19.4284 40.7367 18.9769 41.8268 18.1732 42.6305C17.3694 43.4342 16.2794 43.8857 15.1427 43.8857H14.0713M34.4284 35.3143C33.3248 33.9725 31.9377 32.8919 30.3668 32.1499C28.7958 31.408 27.0801 31.0232 25.3427 31.0232C23.6054 31.0232 21.8896 31.408 20.3187 32.1499C18.7477 32.8919 17.3606 33.9725 16.257 35.3143"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M26.9285 31.1357C27.0571 26.2928 28.5356 21.8785 31.7499 20.2928M25.3428 16.2214C26.7318 15.9478 28.1729 16.2176 29.369 16.9751C30.565 17.7326 31.4249 18.9201 31.7713 20.2928"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M39.5929 21.0856C38.6066 20.0207 37.2655 19.3525 35.8213 19.2065C34.3772 19.0605 32.9294 19.4468 31.75 20.2928"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M23.8857 22.5855C24.7254 21.3485 25.97 20.4428 27.4054 20.0243C28.8407 19.6058 30.3771 19.7007 31.75 20.2927C33.1272 20.6295 34.3195 21.4883 35.0752 22.6879C35.8309 23.8874 36.0908 25.3337 35.8 26.7213"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <div class="advantage-title-text">Спортивные выезды и экспедиции
-                            </div>
-                        </div>
-                        <div class="advantage-content">
-                            В чатах с группой и выпускниками вы будете обмениваться опытом с дизайнерами и
-                            разработчиками, а
-                            также находить партнёров для выполнения заказов.
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="advantage-title">
-                            <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M56 25.3291C56 43.6979 43.0806 60 25.2483 60C7.41599 60 0 46.0676 0 27.6989C0 9.33012 11.3893 0 29.2216 0C47.0539 0 56 6.96038 56 25.3291Z"
-                                      fill="#0C2965"/>
-                                <path d="M20.5636 31.0576C20.5636 31.0576 21.1725 33.33 24.5341 35.2708C27.8956 37.2116 30.1681 36.6027 30.1681 36.6027M20.5636 31.0576C21.0291 19.1606 28.1236 16.8529 32.4458 19.3482C36.7679 21.8436 37.0992 24.5961 36.2676 26.0369C35.4359 27.4776 33.4408 27.6063 34.0495 29.8787M20.5636 31.0576L18.3454 34.8987C17.7329 35.9596 18.0964 37.316 19.1573 37.9285L24.92 41.2556C25.9809 41.8681 27.3374 41.5046 27.95 40.4437L30.1681 36.6027M30.1681 36.6027C32.5147 34.756 36.3022 33.7405 37.4112 31.8196C38.5203 29.8987 37.9114 27.6262 35.7131 26.9973"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <div class="advantage-title-text">Интонационный подход и интересные форматы
-                            </div>
-                        </div>
-                        <div class="advantage-content">
-                            Тренировки подстраиваются под ваш ритм и состояние. Вас ждут необычные форматы, сочетание
-                            силы и мягкости, и всегда — уважение к телу.
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="advantage-title">
-                            <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M56 30.3158C56 49.8982 45.1476 60 28.1559 60C11.1642 60 0 49.2666 0 29.6842C0 10.1018 9.52629 0 26.518 0C43.5097 0 56 10.7334 56 30.3158Z"
-                                      fill="#0C2965"/>
-                                <path d="M32.9927 21.8726C32.9927 22.3698 32.7951 22.8468 32.4435 23.1984C32.0919 23.55 31.615 23.7476 31.1177 23.7476C30.6204 23.7476 30.1435 23.55 29.7919 23.1984C29.4402 22.8468 29.2427 22.3698 29.2427 21.8726C29.2427 21.3753 29.4402 20.8984 29.7919 20.5467C30.1435 20.1951 30.6204 19.9976 31.1177 19.9976C31.615 19.9976 32.0919 20.1951 32.4435 20.5467C32.7951 20.8984 32.9927 21.3753 32.9927 21.8726Z"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M39.25 18.75C38.625 21.25 37.375 25 31.75 26.25C27.3575 27.2263 23.625 27.5 21.75 31.25"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M29.875 26.875C29.875 26.875 29.25 40.625 19.25 41.25M34.25 25.625C34.25 25.625 34.875 36.25 16.75 36.25"
-                                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <div class="advantage-title-text">Практикующие тренеры
-                            </div>
-                        </div>
-                        <div class="advantage-content">
-                            Учат только те, кто сам тренируется. У нас нет теоретиков — только тренеры, которые живут
-                            спортом и идут по этому пути вместе с вами.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="directions">
-        <div class="container">
-            <div class="common-title">Направления</div><!-- Общий класс заголовков-->
-            <div class="directions-items"> <!--Блок отвечает за всю карточку одного товара-->
-                <div class="directions-item"><!--Блок содержит в себе картинку товара-->
-                    <div class="directions-item-image"><!--Добавляем картинку товара-->
-                        <img src="img/boys.png" alt="BOYS">
-                    </div>
-                    <div class="directions-item-details"><!--Блок со всей детальной информацией картинкаи-->
-                        <div class="directions-item-title">BOYS</div><!--Заголовок карты товара-->
-                        <div class="directions-item-text"><!--Описание товара-->
-                            Классическая школа бокса для мужчин любого уровня подготовки. Работаем над техникой, силой,
-                            выносливостью и стратегией. Бокс развивает не только тело, но и характер — учит контролю,
-                            фокусировке и уверенности. От новичка до уверенного бойца — путь начинается здесь.
-                        </div>
-                        <div class="directions-item-extra">
-                            <button class="button orange-button">Записаться</button><!--Добавляем кнопку карты-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="directions-item"><!--Блок содержит в себе картинку товара-->
-                    <div class="directions-item-image"><!--Добавляем картинку товара-->
-                        <img src="img/girl.png" alt="GIRL">
-                    </div>
-                    <div class="directions-item-details"><!--Блок со всей детальной информацией картинкаи-->
-                        <div class="directions-item-title">GIRL</div><!--Заголовок карты товара-->
-                        <div class="directions-item-text"><!--Описание товара-->
-                            Бокс для тех, кто хочет чувствовать себя сильной, выносливой и свободной. Здесь нет
-                            давления, только поддержка и рост.
-                            Развиваем технику, ловкость, осознанность и внутреннюю силу. Для здоровья, настроения,
-                            энергии и уверенности. Без перегруза, но с драйвом.
-                        </div>
-                        <div class="directions-item-extra">
-                            <button class="button orange-button">Записаться</button><!--Добавляем кнопку карты-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="directions-item"><!--Блок содержит в себе картинку товара-->
-                    <div class="directions-item-image"><!--Добавляем картинку товара-->
-                        <img src="img/child.png" alt="CHILD">
-                    </div>
-                    <div class="directions-item-details"><!--Блок со всей детальной информацией картинкаи-->
-                        <div class="directions-item-title">CHILD</div><!--Заголовок карты товара-->
-                        <div class="directions-item-text"><!--Описание товара-->
-                            Тренировки для детей от 6 лет. Развиваем координацию, дисциплину, уверенность в себе
-                            и
-                            уважение к другим. Через игру и движение ребёнок учится быть смелым, собранным и
-                            активным. Безопасность и забота — в каждом движении.
-                        </div>
-                        <div class="directions-item-extra">
-                            <button class="button orange-button">Записаться</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="team">
-        <div class="container">
-            <div class="swiper mySwiper">
-                <h2 class="team-title">Наша научно-спортивная команда</h2>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="descriptions-block">
-                            <h3 class="mySwiper-trainer-title">
-                                Бичевая Елизавета Андреевна
-                            </h3>
-                            <div class="team-descriptions-trainer">
-                                <p>Я — тренер по фитбоксу и вдохновитель женской команды Skill Boxing Science.
-                                </p>
-                                <p>Моя цель — помочь девушкам стать сильными, уверенными и свободными. На тренировках —
-                                    бокс, кардио, работа на мешках и выпуск эмоций через движение.</p>
-                                <p>По профессии я медсестра, увлекаюсь психологией, боксом и йогой. Верь, двигайся,
-                                    раскрывай силу — приходи в зал.</p>
-                            </div>
-                            <div class="container-info-item">
-                                <ul>
-                                    <li>
-                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">
-                                        <span class="info-menu-text">Медицинское образование и опыт работы медсестрой</span>
-                                    </li>
-                                    <li>
-                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">
-                                        <span class="info-menu-text">Обучение йоге и пилатесу</span>
-                                    </li>
-                                    <li>
-                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">
-                                        <span class="info-menu-text">Изучение спортивной психологии</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="directions-item-trainer">
-                                <button class="button orange-button">Записаться</button>
-                                <div class="swiper-nav">
-                                    <div class="swiper-button-prev"></div>
-                                    <div class="swiper-button-next"></div>
+                    <div class="advantages-items" id="meet-advantages-items">
+                        <div class="advantage-item">
+                            <div class="advantage-title">
+                                <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M56 31.5789C56 47.0817 45.4983 60 29.9371 60C14.3759 60 0 44.6255 0 29.1228C0 13.6201 17.5457 0 33.1069 0C48.6681 0 56 16.0762 56 31.5789Z"
+                                          fill="#0C2965"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M37.4667 14.5902C33.9982 12.48 26.9098 17.7987 21.6343 26.4699C16.3588 35.1411 14.8938 43.8811 18.3623 45.9913C21.8308 48.1015 28.9192 42.7828 34.1947 34.1116C39.4702 25.4405 40.9352 16.7004 37.4667 14.5902Z"
+                                          stroke="#F1F3F6" stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M12.214 20.7386C10.1037 24.207 15.4225 31.2954 24.0936 36.571C32.7648 41.8465 41.5048 43.3114 43.615 39.843C45.7253 36.3745 40.4065 29.2861 31.7354 24.0105C23.0642 18.735 14.3242 17.2701 12.214 20.7386Z"
+                                          stroke="#F1F3F6" stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                    <path d="M27.9281 30.2875L27.9146 30.2908" stroke="#F1F3F6" stroke-width="2"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="advantage-title-text">Первый в России сайт о спортивной науке в боксе
                                 </div>
                             </div>
-                        </div>
-                        <div class="description-images">
-                            <img class="image-trainer" src="img/trainer.png" alt="Тренер">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="descriptions-block">
-                            <h3 class="mySwiper-trainer-title">
-                                Селезнев Алексей Константинович
-                            </h3>
-                            <div class="team-descriptions-trainer">
-                                <p>Я тренер и основатель Skill Boxing Science — школы, где бокс соединяется с наукой и
-                                    мышлением.</p>
-                                <p>Победитель Кубка России по шахбоксу, призёр Всероссийской универсиады, выпускник
-                                    ИТМО.
-                                    Учился у сильнейших: мастера спорта Владимира Тихонова и к.п.н. Игоря Шафера.</p>
-                                <p>Тренирую не просто бойцов, а думающих и устойчивых людей. Если близка идея умного
-                                    бокса —
-                                    приходи в зал.</p>
+                            <div class="advantage-content">
+                                Мы стали первыми, кто объединил бокс и научный подход на одной платформе. Здесь спорт
+                                встречается с доказательной медициной, физиологией и современными технологиями.
                             </div>
-                            <div class="container-info-item">
-                                <ul>
-                                    <li>
-                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">
-                                        <span class="info-menu-text">Победа в Кубке России по шахбоксу</span>
-                                    </li>
-                                    <li>
-                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">
-                                        <span class="info-menu-text">Высшее техническое образование в ИТМО</span>
-                                    </li>
-                                    <li>
-                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">
-                                        <span class="info-menu-text">Призовые места на Всероссийской универсиаде и других турнирах</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="directions-item-trainer">
-                                <button class="button orange-button">Записаться</button>
-                                <div class="swiper-nav">
-                                    <div class="swiper-button-prev"></div>
-                                    <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-title">
+                                <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M56 24.6729C56 42.0591 51.4391 60 35.4495 60C19.46 60 0 50.0473 0 32.6611C0 15.2749 18.0286 0 34.0181 0C50.0076 0 56 7.28666 56 24.6729Z"
+                                          fill="#0C2965"/>
+                                    <path d="M28.7707 24.6529C26.5486 19.618 21.3725 19.2198 18.9578 21.3648C16.9927 23.0731 16.0551 27.3501 17.8404 31.2419C20.9358 37.9336 28.7707 41.5171 28.7707 41.5171C28.7707 41.5171 36.6055 37.9978 39.7009 31.3061C41.4863 27.4529 40.5486 23.1887 38.5835 21.429C36.1688 19.2198 30.9927 19.618 28.7707 24.6529Z"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M17.6479 30.7795H23.6333L27.4865 34.6327L31.3397 26.9263L33.9085 30.7795H39.8938"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="advantage-title-text">Индивидуальный подход по физиологии
                                 </div>
                             </div>
-                        </div>
-                        <div class="description-images">
-                            <img class="image-trainer" src="img/trainer.png" alt="Тренер">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="schedule-price">
-        <div class="container">
-            <h2 class="schedule-price-title">Расписание и цены</h2>
-            <div class="schedule-price-cards">
-                <h3> Для новых клиентов сети мы подготовили специальные предложения
-                </h3>
-                <div class="schedule-price-card">
-                    <div class="product">
-                        <div class="card-product-title">
-                            <h3>Пробная в группе</h3>
-                        </div>
-                        <div class="card-product-text">
-                            <p>1 час 30 минут — 1 500 ₽</p>
-                            <div class="card-product-description">
-                                <p>
-                                    <span>Групповое занятие для любого уровня подготовки</span>
-                                    <span>Нагрудные датчики — отслеживаем нагрузку, пульс, дыхание</span>
-                                    <span>В конце — анализ выносливости и восстановление</span>
-                                </p>
+                            <div class="advantage-content">
+                                Тренировки подбираются с учётом сердечного ритма, ИМТ и других показателей. Мы используем
+                                нагрудные датчики, чтобы адаптировать нагрузку под ваш организм в реальном времени.
                             </div>
                         </div>
-                        <div class="product-action">
-                            <button class="button orange-button">Купить</button>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="card-product-title">
-                            <h3>Персональная</h3>
-                        </div>
-                        <div class="card-product-text">
-                            <p>1 час — 3 000 ₽</p>
-                            <div class="card-product-description">
-                                <p>
-                                    <span>Индивидуальный подбор упражнений и нагрузок</span>
-                                    <span>Нагрудные датчики — отслеживаем нагрузку, пульс, дыхание</span>
-                                    <span>В конце — анализ выносливости и восстановление</span>
-                                </p>
+                        <div class="advantage-item">
+                            <div class="advantage-title">
+                                <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M56 34.8571C56 52.5746 41.8078 60 25.9636 60C10.1195 60 0 38.2888 0 20.5714C0 2.85402 17.8647 0 33.7089 0C49.553 0 56 17.1397 56 34.8571Z"
+                                          fill="#0C2965"/>
+                                    <path d="M39.5919 22.1227C42.2369 23.2529 45.2116 23.3404 47.9185 22.3675M24.6532 45.6329C25.6252 42.9175 25.5377 39.9355 24.4083 37.2818C23.5242 35.1689 23.285 32.8416 23.7208 30.5929C24.1566 28.3443 25.2479 26.2749 26.8573 24.6451C28.5071 23.0124 30.6033 21.9046 32.8817 21.4614"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M31.0203 37.9676C33.3103 37.5221 35.416 36.4053 37.0693 34.7594M37.0693 34.7594C38.6815 33.1314 39.7747 31.0619 40.2106 28.8125C40.6465 26.5632 40.4056 24.2351 39.5183 22.1227C38.4119 19.4684 38.3506 16.4937 39.3468 13.7961M37.0693 34.7594L26.955 24.6451M16.0815 37.0615C18.7895 36.084 21.769 36.1804 24.4081 37.3308"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="advantage-title-text">Научно-спортивная команда</div>
+                            </div>
+                            <div class="advantage-content">
+                                Нас объединяет страсть к знаниям. Мы проводим исследования в области спорта, медицины,
+                                физиологии, психологии и питания, чтобы развиваться и давать нашим ученикам только
+                                проверенные решения.
                             </div>
                         </div>
-                        <div class="product-action">
-                            <button class="button orange-button">Купить</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="season-tickets">
-        <div class="container">
-            <h2 class="season-tickets-price-title">Абонементы</h2>
-            <div class="season-tickets-price-cards">
-                <h3>Выбери свой ритм — без сомнений</h3>
-                <div class="season-tickets-price-card">
-                    <div class="product">
-                        <div class="card-product-title">
-                            <h3>Стандартный</h3>
-                        </div>
-                        <div class="card-product-text">
-                            <p>7 000 ₽ / мес</p>
-                            <div class="card-product-description">
-                                <p>
-                                    <span>12 тренировок в месяц Пн, Ср, Пт в 19:30</span>
-                                    <span>Анализ выносливости</span>
-                                    <span>До 3 дней пропусков — для восстановления</span>
-                                    <span>Без заморозки</span>
-                                </p>
+                        <div class="advantage-item">
+                            <div class="advantage-title">
+                                <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M56 23.0854C56 42.1613 43.4925 60 24.5484 60C5.60428 60 0 44.6223 0 25.5464C0 6.47054 2.96894 0 21.913 0C40.8571 0 56 4.00957 56 23.0854Z"
+                                          fill="#0C2965"/>
+                                    <path d="M41.9284 43.8857H40.857C39.7204 43.8857 38.6303 43.4342 37.8265 42.6305C37.0228 41.8268 36.5713 40.7367 36.5713 39.6C36.5713 40.7367 36.1198 41.8268 35.316 42.6305C34.5123 43.4342 33.4222 43.8857 32.2856 43.8857C31.1489 43.8857 30.0588 43.4342 29.2551 42.6305C28.4514 41.8268 27.9999 40.7367 27.9999 39.6C27.9999 40.7367 27.5483 41.8268 26.7446 42.6305C25.9409 43.4342 24.8508 43.8857 23.7141 43.8857C22.5775 43.8857 21.4874 43.4342 20.6837 42.6305C19.88 41.8268 19.4284 40.7367 19.4284 39.6C19.4284 40.7367 18.9769 41.8268 18.1732 42.6305C17.3694 43.4342 16.2794 43.8857 15.1427 43.8857H14.0713M34.4284 35.3143C33.3248 33.9725 31.9377 32.8919 30.3668 32.1499C28.7958 31.408 27.0801 31.0232 25.3427 31.0232C23.6054 31.0232 21.8896 31.408 20.3187 32.1499C18.7477 32.8919 17.3606 33.9725 16.257 35.3143"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M26.9285 31.1357C27.0571 26.2928 28.5356 21.8785 31.7499 20.2928M25.3428 16.2214C26.7318 15.9478 28.1729 16.2176 29.369 16.9751C30.565 17.7326 31.4249 18.9201 31.7713 20.2928"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M39.5929 21.0856C38.6066 20.0207 37.2655 19.3525 35.8213 19.2065C34.3772 19.0605 32.9294 19.4468 31.75 20.2928"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M23.8857 22.5855C24.7254 21.3485 25.97 20.4428 27.4054 20.0243C28.8407 19.6058 30.3771 19.7007 31.75 20.2927C33.1272 20.6295 34.3195 21.4883 35.0752 22.6879C35.8309 23.8874 36.0908 25.3337 35.8 26.7213"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="advantage-title-text">Спортивные выезды и экспедиции
+                                </div>
+                            </div>
+                            <div class="advantage-content">
+                                В чатах с группой и выпускниками вы будете обмениваться опытом с дизайнерами и
+                                разработчиками, а
+                                также находить партнёров для выполнения заказов.
                             </div>
                         </div>
-                        <div class="product-action">
-                            <button class="button orange-button">Купить</button>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="card-product-title">
-                            <h3>Гибкий</h3>
-                        </div>
-                        <div class="card-product-text">
-                            <p>7 500 ₽ / мес</p>
-                            <div class="card-product-description">
-                                <p>
-                                    <span>12 тренировок в месяц Пн, Ср, Пт в 19:30</span>
-                                    <span>Анализ выносливости</span>
-                                    <span>До 5 дней пропусков — для восстановления</span>
-                                    <span>Без заморозки</span>
-                                </p>
+                        <div class="advantage-item">
+                            <div class="advantage-title">
+                                <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M56 25.3291C56 43.6979 43.0806 60 25.2483 60C7.41599 60 0 46.0676 0 27.6989C0 9.33012 11.3893 0 29.2216 0C47.0539 0 56 6.96038 56 25.3291Z"
+                                          fill="#0C2965"/>
+                                    <path d="M20.5636 31.0576C20.5636 31.0576 21.1725 33.33 24.5341 35.2708C27.8956 37.2116 30.1681 36.6027 30.1681 36.6027M20.5636 31.0576C21.0291 19.1606 28.1236 16.8529 32.4458 19.3482C36.7679 21.8436 37.0992 24.5961 36.2676 26.0369C35.4359 27.4776 33.4408 27.6063 34.0495 29.8787M20.5636 31.0576L18.3454 34.8987C17.7329 35.9596 18.0964 37.316 19.1573 37.9285L24.92 41.2556C25.9809 41.8681 27.3374 41.5046 27.95 40.4437L30.1681 36.6027M30.1681 36.6027C32.5147 34.756 36.3022 33.7405 37.4112 31.8196C38.5203 29.8987 37.9114 27.6262 35.7131 26.9973"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="advantage-title-text">Интонационный подход и интересные форматы
+                                </div>
+                            </div>
+                            <div class="advantage-content">
+                                Тренировки подстраиваются под ваш ритм и состояние. Вас ждут необычные форматы, сочетание
+                                силы и мягкости, и всегда — уважение к телу.
                             </div>
                         </div>
-                        <div class="product-action">
-                            <button class="button orange-button">Купить</button>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="card-product-title">
-                            <h3>Премиум</h3>
-                        </div>
-                        <div class="card-product-text">
-                            <p>8 500 ₽ / мес</p>
-                            <div class="card-product-description">
-                                <p>
-                                    <span>12 тренировок в месяц Пн, Ср, Пт в 19:30</span>
-                                    <span>Анализ выносливости</span>
-                                    <span>Пропуски не считаются в течение 2 месяцев</span>
-                                    <span>Без заморозки</span>
-                                </p>
+                        <div class="advantage-item">
+                            <div class="advantage-title">
+                                <svg width="56" height="60" viewBox="0 0 56 60" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M56 30.3158C56 49.8982 45.1476 60 28.1559 60C11.1642 60 0 49.2666 0 29.6842C0 10.1018 9.52629 0 26.518 0C43.5097 0 56 10.7334 56 30.3158Z"
+                                          fill="#0C2965"/>
+                                    <path d="M32.9927 21.8726C32.9927 22.3698 32.7951 22.8468 32.4435 23.1984C32.0919 23.55 31.615 23.7476 31.1177 23.7476C30.6204 23.7476 30.1435 23.55 29.7919 23.1984C29.4402 22.8468 29.2427 22.3698 29.2427 21.8726C29.2427 21.3753 29.4402 20.8984 29.7919 20.5467C30.1435 20.1951 30.6204 19.9976 31.1177 19.9976C31.615 19.9976 32.0919 20.1951 32.4435 20.5467C32.7951 20.8984 32.9927 21.3753 32.9927 21.8726Z"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M39.25 18.75C38.625 21.25 37.375 25 31.75 26.25C27.3575 27.2263 23.625 27.5 21.75 31.25"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M29.875 26.875C29.875 26.875 29.25 40.625 19.25 41.25M34.25 25.625C34.25 25.625 34.875 36.25 16.75 36.25"
+                                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="advantage-title-text">Практикующие тренеры
+                                </div>
+                            </div>
+                            <div class="advantage-content">
+                                Учат только те, кто сам тренируется. У нас нет теоретиков — только тренеры, которые живут
+                                спортом и идут по этому пути вместе с вами.
                             </div>
                         </div>
-                        <div class="product-action">
-                            <button class="button orange-button">Купить</button>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="contacts">
-        <div class="container">
-            <div class="contacts-map">
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab912ef7372356a1ab70ecc47c0039138284230b63d4a09b8641f5fd48c67c836&amp;source=constructor"
-                        width="690" height="636" frameborder="0"></iframe>
-            </div>
-            <div class="contacts-info">
-                <h3 class="contacts-info-title">Контакты</h3>
-                <div class="contacts-info-number">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M17.7071 13.7071L20.3552 16.3552C20.7113 16.7113 20.7113 17.2887 20.3552 17.6448C18.43 19.57 15.3821 19.7866 13.204 18.153L11.6286 16.9714C9.88504 15.6638 8.33622 14.115 7.02857 12.3714L5.84701 10.796C4.21341 8.61788 4.43001 5.56999 6.35523 3.64477C6.71133 3.28867 7.28867 3.28867 7.64477 3.64477L10.2929 6.29289C10.6834 6.68342 10.6834 7.31658 10.2929 7.70711L9.27175 8.72825C9.10946 8.89054 9.06923 9.13846 9.17187 9.34373C10.3585 11.7171 12.2829 13.6415 14.6563 14.8281C14.8615 14.9308 15.1095 14.8905 15.2717 14.7283L16.2929 13.7071C16.6834 13.3166 17.3166 13.3166 17.7071 13.7071Z"
-                              stroke="black" stroke-width="1.5"/>
-                    </svg>
-                    <a href="tel:+79001234567">
-                        +7 (965) xxx-xx-xx
-                    </a>
-                </div>
-                <div class="contacts-info-address">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M12.0001 13.632C13.4431 13.632 14.8271 13.0588 15.8475 12.0384C16.8678 11.018 17.4411 9.63404 17.4411 8.191C17.4411 6.74796 16.8678 5.36402 15.8475 4.34363C14.8271 3.32325 13.4431 2.75 12.0001 2.75C10.557 2.75 9.1731 3.32325 8.15271 4.34363C7.13233 5.36402 6.55908 6.74796 6.55908 8.191C6.55908 9.63404 7.13233 11.018 8.15271 12.0384C9.1731 13.0588 10.557 13.632 12.0001 13.632ZM12.0001 13.632V21.25"
-                              stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <a href="https://yandex.ru/maps/?text=Санкт-Петербург, Большой проспект Петроградской стороны, 45"
-                       target="_blank">
-                        СПб, Большой проспект, пс 45
-                    </a>
-                </div>
-                <div class="contacts-info-time">
-                    <span>Пн–Пт 10:00-23:00</span>
-                    <span>Сб–Вс 11:00-18:00</span>
-                </div>
-                <div class="contacts-info-email">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <rect x="4" y="6" width="16" height="12" rx="2" stroke="black" stroke-width="1.5"/>
-                        <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9"
-                              stroke="black" stroke-width="1.5"/>
-                    </svg>
-                    <a href="mailto:SBS@mail.ru">
-                        Email: SBS@mail.ru
-                    </a>
-                </div>
-                <div class="contacts-info-descriptions">
-                    Если у вас есть предложения, идеи или вы хотите стать частью нашей команды — пишите нам. Мы всегда в
-                    поиске талантливых и увлечённых специалистов, которые разделяют наши ценности. Присоединяйтесь!
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--    <section class="directions">-->
+    <!--        <div class="container">-->
+    <!--            <div class="common-title">Направления</div>&lt;!&ndash; Общий класс заголовков&ndash;&gt;-->
+    <!--            <div class="directions-items"> &lt;!&ndash;Блок отвечает за всю карточку одного товара&ndash;&gt;-->
+    <!--                <div class="directions-item">&lt;!&ndash;Блок содержит в себе картинку товара&ndash;&gt;-->
+    <!--                    <div class="directions-item-image">&lt;!&ndash;Добавляем картинку товара&ndash;&gt;-->
+    <!--                        <img src="img/boys.png" alt="BOYS">-->
+    <!--                    </div>-->
+    <!--                    <div class="directions-item-details">&lt;!&ndash;Блок со всей детальной информацией картинкаи&ndash;&gt;-->
+    <!--                        <div class="directions-item-title">BOYS</div>&lt;!&ndash;Заголовок карты товара&ndash;&gt;-->
+    <!--                        <div class="directions-item-text">&lt;!&ndash;Описание товара&ndash;&gt;-->
+    <!--                            Классическая школа бокса для мужчин любого уровня подготовки. Работаем над техникой, силой,-->
+    <!--                            выносливостью и стратегией. Бокс развивает не только тело, но и характер — учит контролю,-->
+    <!--                            фокусировке и уверенности. От новичка до уверенного бойца — путь начинается здесь.-->
+    <!--                        </div>-->
+    <!--                        <div class="directions-item-extra">-->
+    <!--                            <button class="button orange-button">Записаться</button>&lt;!&ndash;Добавляем кнопку карты&ndash;&gt;-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
-    <section class="order">
-        <div class="container">
-            <div class="order-text">
-                <h2 class="order-text-title">Выбери свой ритм</h2>
-                <form>
-                    <fieldset>
-                        <legend>Выбери интересующий абонемент:</legend>
-                        <div class="checkbox-group">
-                            <label>
-                                <input class="checkbox" type="checkbox" name="interests" value="sports">
-                                Пробная в группе
-                            </label>
-                            <label>
-                                <input class="checkbox" type="checkbox" name="interests" value="music">
-                                Персональная
-                            </label>
-                            <label>
-                                <input class="checkbox" type="checkbox" name="interests" value="reading">
-                                Стандартный
-                            </label>
-                            <label>
-                                <input class="checkbox" type="checkbox" name="interests" value="travel">
-                                Гибкий
-                            </label>
-                            <label>
-                                <input class="checkbox" type="checkbox" name="interests" value="technology">
-                                Годовой
-                            </label>
-                            <label>
-                                <input class="checkbox" type="checkbox" name="interests" value="technology">
-                                Премиум
-                            </label>
+    <!--                <div class="directions-item">&lt;!&ndash;Блок содержит в себе картинку товара&ndash;&gt;-->
+    <!--                    <div class="directions-item-image">&lt;!&ndash;Добавляем картинку товара&ndash;&gt;-->
+    <!--                        <img src="img/girl.png" alt="GIRL">-->
+    <!--                    </div>-->
+    <!--                    <div class="directions-item-details">&lt;!&ndash;Блок со всей детальной информацией картинкаи&ndash;&gt;-->
+    <!--                        <div class="directions-item-title">GIRL</div>&lt;!&ndash;Заголовок карты товара&ndash;&gt;-->
+    <!--                        <div class="directions-item-text">&lt;!&ndash;Описание товара&ndash;&gt;-->
+    <!--                            Бокс для тех, кто хочет чувствовать себя сильной, выносливой и свободной. Здесь нет-->
+    <!--                            давления, только поддержка и рост.-->
+    <!--                            Развиваем технику, ловкость, осознанность и внутреннюю силу. Для здоровья, настроения,-->
+    <!--                            энергии и уверенности. Без перегруза, но с драйвом.-->
+    <!--                        </div>-->
+    <!--                        <div class="directions-item-extra">-->
+    <!--                            <button class="button orange-button">Записаться</button>&lt;!&ndash;Добавляем кнопку карты&ndash;&gt;-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
-                        </div>
-                        <div class="order-contact">
-                            <label class="order-input-label">
-                                <input class="order-input" type="text" id="name-input"
-                                       placeholder="Ваше имя">
-                            </label>
-                            <label class="order-input-label">
-                                <input class="order-input" type="text" id="phone-input"
-                                       placeholder="+ 8 (___) ___-__-__">
-                            </label>
-                            <label>
-                                <input type="checkbox" name="agreement" required>
-                                <span>Я даю согласие на обработку<a href="#">персональных
-                                данных</a> и соглашаюсь c политикой конфиденциальности</span>
-                            </label>
-                        </div>
-                        <button class="button orange-button" type="button">Записаться</button>
-                    </fieldset>
-                </form>
-            </div>
-            <div class="order-img">
-                <img src="img/img_1.png" alt="Бойцы">
-            </div>
-        </div>
-    </section>
+    <!--                <div class="directions-item">&lt;!&ndash;Блок содержит в себе картинку товара&ndash;&gt;-->
+    <!--                    <div class="directions-item-image">&lt;!&ndash;Добавляем картинку товара&ndash;&gt;-->
+    <!--                        <img src="img/child.png" alt="CHILD">-->
+    <!--                    </div>-->
+    <!--                    <div class="directions-item-details">&lt;!&ndash;Блок со всей детальной информацией картинкаи&ndash;&gt;-->
+    <!--                        <div class="directions-item-title">CHILD</div>&lt;!&ndash;Заголовок карты товара&ndash;&gt;-->
+    <!--                        <div class="directions-item-text">&lt;!&ndash;Описание товара&ndash;&gt;-->
+    <!--                            Тренировки для детей от 6 лет. Развиваем координацию, дисциплину, уверенность в себе-->
+    <!--                            и-->
+    <!--                            уважение к другим. Через игру и движение ребёнок учится быть смелым, собранным и-->
+    <!--                            активным. Безопасность и забота — в каждом движении.-->
+    <!--                        </div>-->
+    <!--                        <div class="directions-item-extra">-->
+    <!--                            <button class="button orange-button">Записаться</button>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+    <!--    <section class="team">-->
+    <!--        <div class="container">-->
+    <!--            <div class="swiper mySwiper">-->
+    <!--                <h2 class="team-title">Наша научно-спортивная команда</h2>-->
+    <!--                <div class="swiper-wrapper">-->
+    <!--                    <div class="swiper-slide">-->
+    <!--                        <div class="descriptions-block">-->
+    <!--                            <h3 class="mySwiper-trainer-title">-->
+    <!--                                Бичевая Елизавета Андреевна-->
+    <!--                            </h3>-->
+    <!--                            <div class="team-descriptions-trainer">-->
+    <!--                                <p>Я — тренер по фитбоксу и вдохновитель женской команды Skill Boxing Science.-->
+    <!--                                </p>-->
+    <!--                                <p>Моя цель — помочь девушкам стать сильными, уверенными и свободными. На тренировках —-->
+    <!--                                    бокс, кардио, работа на мешках и выпуск эмоций через движение.</p>-->
+    <!--                                <p>По профессии я медсестра, увлекаюсь психологией, боксом и йогой. Верь, двигайся,-->
+    <!--                                    раскрывай силу — приходи в зал.</p>-->
+    <!--                            </div>-->
+    <!--                            <div class="container-info-item">-->
+    <!--                                <ul>-->
+    <!--                                    <li>-->
+    <!--                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">-->
+    <!--                                        <span class="info-menu-text">Медицинское образование и опыт работы медсестрой</span>-->
+    <!--                                    </li>-->
+    <!--                                    <li>-->
+    <!--                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">-->
+    <!--                                        <span class="info-menu-text">Обучение йоге и пилатесу</span>-->
+    <!--                                    </li>-->
+    <!--                                    <li>-->
+    <!--                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">-->
+    <!--                                        <span class="info-menu-text">Изучение спортивной психологии</span>-->
+    <!--                                    </li>-->
+    <!--                                </ul>-->
+    <!--                            </div>-->
+    <!--                            <div class="directions-item-trainer">-->
+    <!--                                <button class="button orange-button">Записаться</button>-->
+    <!--                                <div class="swiper-nav">-->
+    <!--                                    <div class="swiper-button-prev"></div>-->
+    <!--                                    <div class="swiper-button-next"></div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="description-images">-->
+    <!--                            <img class="image-trainer" src="img/trainer.png" alt="Тренер">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="swiper-slide">-->
+    <!--                        <div class="descriptions-block">-->
+    <!--                            <h3 class="mySwiper-trainer-title">-->
+    <!--                                Селезнев Алексей Константинович-->
+    <!--                            </h3>-->
+    <!--                            <div class="team-descriptions-trainer">-->
+    <!--                                <p>Я тренер и основатель Skill Boxing Science — школы, где бокс соединяется с наукой и-->
+    <!--                                    мышлением.</p>-->
+    <!--                                <p>Победитель Кубка России по шахбоксу, призёр Всероссийской универсиады, выпускник-->
+    <!--                                    ИТМО.-->
+    <!--                                    Учился у сильнейших: мастера спорта Владимира Тихонова и к.п.н. Игоря Шафера.</p>-->
+    <!--                                <p>Тренирую не просто бойцов, а думающих и устойчивых людей. Если близка идея умного-->
+    <!--                                    бокса —-->
+    <!--                                    приходи в зал.</p>-->
+    <!--                            </div>-->
+    <!--                            <div class="container-info-item">-->
+    <!--                                <ul>-->
+    <!--                                    <li>-->
+    <!--                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">-->
+    <!--                                        <span class="info-menu-text">Победа в Кубке России по шахбоксу</span>-->
+    <!--                                    </li>-->
+    <!--                                    <li>-->
+    <!--                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">-->
+    <!--                                        <span class="info-menu-text">Высшее техническое образование в ИТМО</span>-->
+    <!--                                    </li>-->
+    <!--                                    <li>-->
+    <!--                                        <img class="info-menu-img" src="img/favourite.png" alt="иконка">-->
+    <!--                                        <span class="info-menu-text">Призовые места на Всероссийской универсиаде и других турнирах</span>-->
+    <!--                                    </li>-->
+    <!--                                </ul>-->
+    <!--                            </div>-->
+    <!--                            <div class="directions-item-trainer">-->
+    <!--                                <button class="button orange-button">Записаться</button>-->
+    <!--                                <div class="swiper-nav">-->
+    <!--                                    <div class="swiper-button-prev"></div>-->
+    <!--                                    <div class="swiper-button-next"></div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="description-images">-->
+    <!--                            <img class="image-trainer" src="img/trainer.png" alt="Тренер">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+    <!--    <section class="schedule-price">-->
+    <!--        <div class="container">-->
+    <!--            <h2 class="schedule-price-title">Расписание и цены</h2>-->
+    <!--            <div class="schedule-price-cards">-->
+    <!--                <h3> Для новых клиентов сети мы подготовили специальные предложения-->
+    <!--                </h3>-->
+    <!--                <div class="schedule-price-card">-->
+    <!--                    <div class="product">-->
+    <!--                        <div class="card-product-title">-->
+    <!--                            <h3>Пробная в группе</h3>-->
+    <!--                        </div>-->
+    <!--                        <div class="card-product-text">-->
+    <!--                            <p>1 час 30 минут — 1 500 ₽</p>-->
+    <!--                            <div class="card-product-description">-->
+    <!--                                <p>-->
+    <!--                                    <span>Групповое занятие для любого уровня подготовки</span>-->
+    <!--                                    <span>Нагрудные датчики — отслеживаем нагрузку, пульс, дыхание</span>-->
+    <!--                                    <span>В конце — анализ выносливости и восстановление</span>-->
+    <!--                                </p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="product-action">-->
+    <!--                            <button class="button orange-button">Купить</button>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="product">-->
+    <!--                        <div class="card-product-title">-->
+    <!--                            <h3>Персональная</h3>-->
+    <!--                        </div>-->
+    <!--                        <div class="card-product-text">-->
+    <!--                            <p>1 час — 3 000 ₽</p>-->
+    <!--                            <div class="card-product-description">-->
+    <!--                                <p>-->
+    <!--                                    <span>Индивидуальный подбор упражнений и нагрузок</span>-->
+    <!--                                    <span>Нагрудные датчики — отслеживаем нагрузку, пульс, дыхание</span>-->
+    <!--                                    <span>В конце — анализ выносливости и восстановление</span>-->
+    <!--                                </p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="product-action">-->
+    <!--                            <button class="button orange-button">Купить</button>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+    <!--    <section class="season-tickets">-->
+    <!--        <div class="container">-->
+    <!--            <h2 class="season-tickets-price-title">Абонементы</h2>-->
+    <!--            <div class="season-tickets-price-cards">-->
+    <!--                <h3>Выбери свой ритм — без сомнений</h3>-->
+    <!--                <div class="season-tickets-price-card">-->
+    <!--                    <div class="product">-->
+    <!--                        <div class="card-product-title">-->
+    <!--                            <h3>Стандартный</h3>-->
+    <!--                        </div>-->
+    <!--                        <div class="card-product-text">-->
+    <!--                            <p>7 000 ₽ / мес</p>-->
+    <!--                            <div class="card-product-description">-->
+    <!--                                <p>-->
+    <!--                                    <span>12 тренировок в месяц Пн, Ср, Пт в 19:30</span>-->
+    <!--                                    <span>Анализ выносливости</span>-->
+    <!--                                    <span>До 3 дней пропусков — для восстановления</span>-->
+    <!--                                    <span>Без заморозки</span>-->
+    <!--                                </p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="product-action">-->
+    <!--                            <button class="button orange-button">Купить</button>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="product">-->
+    <!--                        <div class="card-product-title">-->
+    <!--                            <h3>Гибкий</h3>-->
+    <!--                        </div>-->
+    <!--                        <div class="card-product-text">-->
+    <!--                            <p>7 500 ₽ / мес</p>-->
+    <!--                            <div class="card-product-description">-->
+    <!--                                <p>-->
+    <!--                                    <span>12 тренировок в месяц Пн, Ср, Пт в 19:30</span>-->
+    <!--                                    <span>Анализ выносливости</span>-->
+    <!--                                    <span>До 5 дней пропусков — для восстановления</span>-->
+    <!--                                    <span>Без заморозки</span>-->
+    <!--                                </p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="product-action">-->
+    <!--                            <button class="button orange-button">Купить</button>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="product">-->
+    <!--                        <div class="card-product-title">-->
+    <!--                            <h3>Премиум</h3>-->
+    <!--                        </div>-->
+    <!--                        <div class="card-product-text">-->
+    <!--                            <p>8 500 ₽ / мес</p>-->
+    <!--                            <div class="card-product-description">-->
+    <!--                                <p>-->
+    <!--                                    <span>12 тренировок в месяц Пн, Ср, Пт в 19:30</span>-->
+    <!--                                    <span>Анализ выносливости</span>-->
+    <!--                                    <span>Пропуски не считаются в течение 2 месяцев</span>-->
+    <!--                                    <span>Без заморозки</span>-->
+    <!--                                </p>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="product-action">-->
+    <!--                            <button class="button orange-button">Купить</button>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+    <!--    <section class="contacts">-->
+    <!--        <div class="container">-->
+    <!--            <div class="contacts-map">-->
+    <!--                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab912ef7372356a1ab70ecc47c0039138284230b63d4a09b8641f5fd48c67c836&amp;source=constructor"-->
+    <!--                        width="690" height="636" frameborder="0"></iframe>-->
+    <!--            </div>-->
+    <!--            <div class="contacts-info">-->
+    <!--                <h3 class="contacts-info-title">Контакты</h3>-->
+    <!--                <div class="contacts-info-number">-->
+    <!--                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">-->
+    <!--                        <path d="M17.7071 13.7071L20.3552 16.3552C20.7113 16.7113 20.7113 17.2887 20.3552 17.6448C18.43 19.57 15.3821 19.7866 13.204 18.153L11.6286 16.9714C9.88504 15.6638 8.33622 14.115 7.02857 12.3714L5.84701 10.796C4.21341 8.61788 4.43001 5.56999 6.35523 3.64477C6.71133 3.28867 7.28867 3.28867 7.64477 3.64477L10.2929 6.29289C10.6834 6.68342 10.6834 7.31658 10.2929 7.70711L9.27175 8.72825C9.10946 8.89054 9.06923 9.13846 9.17187 9.34373C10.3585 11.7171 12.2829 13.6415 14.6563 14.8281C14.8615 14.9308 15.1095 14.8905 15.2717 14.7283L16.2929 13.7071C16.6834 13.3166 17.3166 13.3166 17.7071 13.7071Z"-->
+    <!--                              stroke="black" stroke-width="1.5"/>-->
+    <!--                    </svg>-->
+    <!--                    <a href="tel:+79001234567">-->
+    <!--                        +7 (965) xxx-xx-xx-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--                <div class="contacts-info-address">-->
+    <!--                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">-->
+    <!--                        <path d="M12.0001 13.632C13.4431 13.632 14.8271 13.0588 15.8475 12.0384C16.8678 11.018 17.4411 9.63404 17.4411 8.191C17.4411 6.74796 16.8678 5.36402 15.8475 4.34363C14.8271 3.32325 13.4431 2.75 12.0001 2.75C10.557 2.75 9.1731 3.32325 8.15271 4.34363C7.13233 5.36402 6.55908 6.74796 6.55908 8.191C6.55908 9.63404 7.13233 11.018 8.15271 12.0384C9.1731 13.0588 10.557 13.632 12.0001 13.632ZM12.0001 13.632V21.25"-->
+    <!--                              stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>-->
+    <!--                    </svg>-->
+    <!--                    <a href="https://yandex.ru/maps/?text=Санкт-Петербург, Большой проспект Петроградской стороны, 45"-->
+    <!--                       target="_blank">-->
+    <!--                        СПб, Большой проспект, пс 45-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--                <div class="contacts-info-time">-->
+    <!--                    <span>Пн–Пт 10:00-23:00</span>-->
+    <!--                    <span>Сб–Вс 11:00-18:00</span>-->
+    <!--                </div>-->
+    <!--                <div class="contacts-info-email">-->
+    <!--                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">-->
+    <!--                        <rect x="4" y="6" width="16" height="12" rx="2" stroke="black" stroke-width="1.5"/>-->
+    <!--                        <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9"-->
+    <!--                              stroke="black" stroke-width="1.5"/>-->
+    <!--                    </svg>-->
+    <!--                    <a href="mailto:SBS@mail.ru">-->
+    <!--                        Email: SBS@mail.ru-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--                <div class="contacts-info-descriptions">-->
+    <!--                    Если у вас есть предложения, идеи или вы хотите стать частью нашей команды — пишите нам. Мы всегда в-->
+    <!--                    поиске талантливых и увлечённых специалистов, которые разделяют наши ценности. Присоединяйтесь!-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+
+    <!--    <section class="order">-->
+    <!--        <div class="container">-->
+    <!--            <div class="order-text">-->
+    <!--                <h2 class="order-text-title">Выбери свой ритм</h2>-->
+    <!--                <form>-->
+    <!--                    <fieldset>-->
+    <!--                        <legend>Выбери интересующий абонемент:</legend>-->
+    <!--                        <div class="checkbox-group">-->
+    <!--                            <label>-->
+    <!--                                <input class="checkbox" type="checkbox" name="interests" value="sports">-->
+    <!--                                Пробная в группе-->
+    <!--                            </label>-->
+    <!--                            <label>-->
+    <!--                                <input class="checkbox" type="checkbox" name="interests" value="music">-->
+    <!--                                Персональная-->
+    <!--                            </label>-->
+    <!--                            <label>-->
+    <!--                                <input class="checkbox" type="checkbox" name="interests" value="reading">-->
+    <!--                                Стандартный-->
+    <!--                            </label>-->
+    <!--                            <label>-->
+    <!--                                <input class="checkbox" type="checkbox" name="interests" value="travel">-->
+    <!--                                Гибкий-->
+    <!--                            </label>-->
+    <!--                            <label>-->
+    <!--                                <input class="checkbox" type="checkbox" name="interests" value="technology">-->
+    <!--                                Годовой-->
+    <!--                            </label>-->
+    <!--                            <label>-->
+    <!--                                <input class="checkbox" type="checkbox" name="interests" value="technology">-->
+    <!--                                Премиум-->
+    <!--                            </label>-->
+
+    <!--                        </div>-->
+    <!--                        <div class="order-contact">-->
+    <!--                            <label class="order-input-label">-->
+    <!--                                <input class="order-input" type="text" id="name-input"-->
+    <!--                                       placeholder="Ваше имя">-->
+    <!--                            </label>-->
+    <!--                            <label class="order-input-label">-->
+    <!--                                <input class="order-input" type="text" id="phone-input"-->
+    <!--                                       placeholder="+ 8 (___) ___-__-__">-->
+    <!--                            </label>-->
+    <!--                            <label>-->
+    <!--                                <input type="checkbox" name="agreement" required>-->
+    <!--                                <span>Я даю согласие на обработку<a href="#">персональных-->
+    <!--                                данных</a> и соглашаюсь c политикой конфиденциальности</span>-->
+    <!--                            </label>-->
+    <!--                        </div>-->
+    <!--                        <button class="button orange-button" type="button">Записаться</button>-->
+    <!--                    </fieldset>-->
+    <!--                </form>-->
+    <!--            </div>-->
+    <!--            <div class="order-img">-->
+    <!--                <img src="img/img_1.png" alt="Бойцы">-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
 </main>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer-logo">
-            <a href="#"><img src="icons/лого.svg" alt="Логотип"></a>
-            <div class="rights">
-                <span>© 2025 Skill Boxing Science</span>
-                Сайт создан с любовью к боксу
-            </div>
-        </div>
-        <div class="footer-menu">
-            <ul>
-                <li class="footer-menu-item">
-                    <a href="#">Расписание</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#">Тренировки</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#">Тренер</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#">Абонементы</a>
-                </li>
-                <li class="footer-menu-item">
-                    <a href="#">Запись</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-contact-info">
-            <div class="footer-contacts">
-                <div class="footer-contacts-info-number">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M17.7071 13.7071L20.3552 16.3552C20.7113 16.7113 20.7113 17.2887 20.3552 17.6448C18.43 19.57 15.3821 19.7866 13.204 18.153L11.6286 16.9714C9.88504 15.6638 8.33622 14.115 7.02857 12.3714L5.84701 10.796C4.21341 8.61788 4.43001 5.56999 6.35523 3.64477C6.71133 3.28867 7.28867 3.28867 7.64477 3.64477L10.2929 6.29289C10.6834 6.68342 10.6834 7.31658 10.2929 7.70711L9.27175 8.72825C9.10946 8.89054 9.06923 9.13846 9.17187 9.34373C10.3585 11.7171 12.2829 13.6415 14.6563 14.8281C14.8615 14.9308 15.1095 14.8905 15.2717 14.7283L16.2929 13.7071C16.6834 13.3166 17.3166 13.3166 17.7071 13.7071Z"
-                              stroke="white" stroke-width="1.5"/>
-                    </svg>
-                    <a href="tel:+79001234567">
-                        +7 (965) xxx-xx-xx
-                    </a>
-                </div>
-                <div class="footer-contacts-info-email">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <rect x="4" y="6" width="16" height="12" rx="2" stroke="white" stroke-width="1.5"/>
-                        <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9"
-                              stroke="white" stroke-width="1.5"/>
-                    </svg>
-                    <a href="mailto:SBS@mail.ru">
-                        Email: SBS@mail.ru
-                    </a>
-                </div>
-                <div class="footer-contacts-info-address">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M12.0001 13.632C13.4431 13.632 14.8271 13.0588 15.8475 12.0384C16.8678 11.018 17.4411 9.63404 17.4411 8.191C17.4411 6.74796 16.8678 5.36402 15.8475 4.34363C14.8271 3.32325 13.4431 2.75 12.0001 2.75C10.557 2.75 9.1731 3.32325 8.15271 4.34363C7.13233 5.36402 6.55908 6.74796 6.55908 8.191C6.55908 9.63404 7.13233 11.018 8.15271 12.0384C9.1731 13.0588 10.557 13.632 12.0001 13.632ZM12.0001 13.632V21.25"
-                              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <a href="https://yandex.ru/maps/?text=Санкт-Петербург, Большой проспект Петроградской стороны, 45"
-                       target="_blank">
-                        СПб, Большой проспект, пс 45
-                    </a>
-                </div>
-            </div>
-            <div class="footer-social">
-                <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
-                <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
-                <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
-                <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
-            </div>
-        </div>
-    </div>
-</footer>
+<!--<footer class="footer">-->
+<!--    <div class="container">-->
+<!--        <div class="footer-logo">-->
+<!--            <a href="#"><img src="icons/лого.svg" alt="Логотип"></a>-->
+<!--            <div class="rights">-->
+<!--                <span>© 2025 Skill Boxing Science</span>-->
+<!--                Сайт создан с любовью к боксу-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="footer-menu">-->
+<!--            <ul>-->
+<!--                <li class="footer-menu-item">-->
+<!--                    <a href="#">Расписание</a>-->
+<!--                </li>-->
+<!--                <li class="footer-menu-item">-->
+<!--                    <a href="#">Тренировки</a>-->
+<!--                </li>-->
+<!--                <li class="footer-menu-item">-->
+<!--                    <a href="#">Тренер</a>-->
+<!--                </li>-->
+<!--                <li class="footer-menu-item">-->
+<!--                    <a href="#">Абонементы</a>-->
+<!--                </li>-->
+<!--                <li class="footer-menu-item">-->
+<!--                    <a href="#">Запись</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="footer-contact-info">-->
+<!--            <div class="footer-contacts">-->
+<!--                <div class="footer-contacts-info-number">-->
+<!--                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">-->
+<!--                        <path d="M17.7071 13.7071L20.3552 16.3552C20.7113 16.7113 20.7113 17.2887 20.3552 17.6448C18.43 19.57 15.3821 19.7866 13.204 18.153L11.6286 16.9714C9.88504 15.6638 8.33622 14.115 7.02857 12.3714L5.84701 10.796C4.21341 8.61788 4.43001 5.56999 6.35523 3.64477C6.71133 3.28867 7.28867 3.28867 7.64477 3.64477L10.2929 6.29289C10.6834 6.68342 10.6834 7.31658 10.2929 7.70711L9.27175 8.72825C9.10946 8.89054 9.06923 9.13846 9.17187 9.34373C10.3585 11.7171 12.2829 13.6415 14.6563 14.8281C14.8615 14.9308 15.1095 14.8905 15.2717 14.7283L16.2929 13.7071C16.6834 13.3166 17.3166 13.3166 17.7071 13.7071Z"-->
+<!--                              stroke="white" stroke-width="1.5"/>-->
+<!--                    </svg>-->
+<!--                    <a href="tel:+79001234567">-->
+<!--                        +7 (965) xxx-xx-xx-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--                <div class="footer-contacts-info-email">-->
+<!--                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">-->
+<!--                        <rect x="4" y="6" width="16" height="12" rx="2" stroke="white" stroke-width="1.5"/>-->
+<!--                        <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9"-->
+<!--                              stroke="white" stroke-width="1.5"/>-->
+<!--                    </svg>-->
+<!--                    <a href="mailto:SBS@mail.ru">-->
+<!--                        Email: SBS@mail.ru-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--                <div class="footer-contacts-info-address">-->
+<!--                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">-->
+<!--                        <path d="M12.0001 13.632C13.4431 13.632 14.8271 13.0588 15.8475 12.0384C16.8678 11.018 17.4411 9.63404 17.4411 8.191C17.4411 6.74796 16.8678 5.36402 15.8475 4.34363C14.8271 3.32325 13.4431 2.75 12.0001 2.75C10.557 2.75 9.1731 3.32325 8.15271 4.34363C7.13233 5.36402 6.55908 6.74796 6.55908 8.191C6.55908 9.63404 7.13233 11.018 8.15271 12.0384C9.1731 13.0588 10.557 13.632 12.0001 13.632ZM12.0001 13.632V21.25"-->
+<!--                              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>-->
+<!--                    </svg>-->
+<!--                    <a href="https://yandex.ru/maps/?text=Санкт-Петербург, Большой проспект Петроградской стороны, 45"-->
+<!--                       target="_blank">-->
+<!--                        СПб, Большой проспект, пс 45-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="footer-social">-->
+<!--                <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>-->
+<!--                <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>-->
+<!--                <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>-->
+<!--                <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->
 <!--<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
 <!--<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
 <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>-->

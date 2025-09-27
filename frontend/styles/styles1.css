@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Это улучшает контроль размеров */
+
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url("../fonts/OpenSans-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: FatalTrialBold;
+    src: url("../fonts/Fatal-TRIAL-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+body {
+    background-color: #FAFAFA;
+
+}
+
+.header {
+    padding-top: 44px;
+    background-color: #0C2965;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        /*box-sizing: content-box;*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            .burger {
+                margin-left: 66px;
+                cursor: pointer;
+
+                svg {
+                    width: 36px;
+                    height: 36px;
+                    fill: #fad7a7;
+                }
+            }
+        }
+
+        .menu {
+            display: none;
+            background-color: #F7F9FD;
+            padding-top: 108px;
+            padding-left: 142px;
+            z-index: 1;
+            position: absolute;
+            top: 128px;
+            left: 0px;
+            width: 484px;
+            height: 728px;
+            /*flex-shrink:0 ;*/
+        }
+
+        .telephone-block {
+            a {
+                font-size: 26px;
+                font-family: OpenSansRegular, sans-serif;
+                color: #ffffff;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            p {
+                font-family: OpenSansRegular, sans-serif;
+                font-size: 14px;
+                color: #D4DDF2;
+                text-align: center;
+
+            }
+        }
+
+    }
+}
+
+/*main*/
+
+.main {
+    padding: 148px 0 198px 0;
+    background-color: #0C2965;
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .main-info {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .main-info-title {
+                /*font-size: 180px;*/
+                /*font-family: FatalTrialBold, sans-serif;*/
+                /*color: #ffffff;*/
+                margin-bottom: 38px;
+                width: 552px;
+                height: auto;
+
+            }
+
+            .main-info-description {
+                width: 600px;
+                font-size: 20px;
+                font-family: OpenSansLight, sans-serif;
+                color: #F1F3F6;
+                line-height: 30px;
+                margin-bottom: 80px;
+            }
+
+            .button {
+                width: 220px;
+                height: 60px;
+                background-color: #FFA500;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: OpenSansRegular, sans-serif;
+                border: none;
+            }
+        }
+    }
+}
+
+
+.about {
+    padding: 147px 0 140px 0;
+    overflow: hidden; /* чтобы фон не выходил за границы */
+
+    .container {
+        background-color: #D4DDF2;
+
+        .about-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .about-info-text {
+                width: 630px;
+
+                .about-info-title {
+                    font-size: 48px;
+                    color: #1F1F1F;
+                    font-family: OpenSansRegular, sans-serif;
+                    font-weight: bold;
+                    margin-bottom: 60px;
+                }
+
+                .about-info-descriptions {
+                    font-size: 16px;
+                    color: #313131;
+                    font-family: OpenSansRegular, sans-serif;
+                    line-height: 1.6;
+
+                    p {
+                        margin-bottom: 20px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+
+            }
+
+            .about-info-image {
+                position: relative;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 95px;
+                    left: 40px;
+                    background: linear-gradient(135deg, #020100, #040100);
+                    z-index: 0;
+                    width: 360px;
+                    height: 447px;
+                }
+
+                img {
+                    position: relative;
+                    z-index: 1; /* картинка выше фона */
+                }
+            }
+
+        }
+    }
+}
+
+/*section advantage*/
+.advantages {
+    padding-bottom: 140px;
+
+    .container {
+        max-width: 1200px; /* ограничение ширины контейнера */
+        margin: 0 auto;
+
+        .advantages-info {
+
+            .advantages-title {
+                font-family: "OpenSansBold", sans-serif;
+                color: #1e1a2b;
+                font-size: 48px;
+                line-height: 120%;
+                text-align: center;
+                margin-bottom: 60px;
+
+            }
+
+            .advantages-items {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 60px; /* расстояние между карточками */
+
+
+                .advantage-item {
+                    .advantage-title {
+                        display: grid;
+                        grid-template-columns: auto 1fr;
+                        align-items: center;
+                        gap: 15px;
+                        margin-bottom: 20px;
+
+                        .advantage-title-text {
+                            font-size: 20px;
+                            font-family: "OpenSansBold", sans-serif;
+                            line-height: 150%;
+                        }
+                    }
+                    .advantage-content {
+                        font-size: 16px;
+                        line-height: 140%;
+                        font-family: "OpenSansRegular", sans-serif;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+
+

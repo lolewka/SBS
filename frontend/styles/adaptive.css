@@ -28,3 +28,52 @@
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .about .container::before {
+        top: 0;
+    }
+
+    .about-info {
+        align-items: flex-end;
+    }
+
+    .advantages-items {
+        grid-template-columns: repeat(2, 337px);
+        gap: 20px 15px
+    }
+
+    .advantage-title-text {
+        font-size: 16px;
+    }
+
+    .advantage-content {
+        font-size: 14px;
+    }
+
+    .directions .container::before {
+        height: 1570px;
+    }
+
+    .directions-items {
+        grid-template-columns: repeat(1, 300px);
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .directions-item-text {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .team-title {
+        margin-bottom: 60px;
+    }
+
+    .description-images {
+        height: 360px;
+    }
+    .swiper-slide {
+        flex-direction: column-reverse;
+    }
+}
