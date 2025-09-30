@@ -151,9 +151,11 @@ body {
         background-color: #D4DDF2;
 
         .about-info {
+            max-width: 1200px;
+            margin: 0 auto;
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
 
             .about-info-text {
                 width: 630px;
@@ -210,14 +212,13 @@ body {
 
 /*section advantage*/
 .advantages {
-    padding-bottom: 140px;
+    padding-bottom: 70px;
 
     .container {
         max-width: 1200px; /* ограничение ширины контейнера */
         margin: 0 auto;
 
         .advantages-info {
-
             .advantages-title {
                 font-family: "OpenSansBold", sans-serif;
                 color: #1e1a2b;
@@ -225,7 +226,6 @@ body {
                 line-height: 120%;
                 text-align: center;
                 margin-bottom: 60px;
-
             }
 
             .advantages-items {
@@ -248,6 +248,7 @@ body {
                             line-height: 150%;
                         }
                     }
+
                     .advantage-content {
                         font-size: 16px;
                         line-height: 140%;
@@ -261,5 +262,213 @@ body {
     }
 }
 
+/*sections Directions*/
 
 
+.directions {
+    padding: 70px 0 40px 0;
+
+    .container {
+        background-color: #D4DDF2;
+
+        .common-title {
+            padding-top: 80px;
+            font-family: "OpenSansBold", sans-serif;
+            margin-bottom: 60px;
+            font-size: 48px;
+            line-height: 120%; /* 57.6px */
+            text-align: center;
+        }
+
+
+        .directions-items {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex; /* выстраиваем карточки в линию */
+            /*justify-content: space-between;*/
+            gap: 60px; /* отступы между карточками */
+            overflow-x: auto; /* включаем горизонтальный скролл */
+            overflow-y: hidden; /* убираем вертикальный скролл */
+            scroll-behavior: smooth; /* плавная прокрутка */
+            -webkit-overflow-scrolling: touch; /* для iOS */
+            padding-bottom: 80px;
+
+            .directions-item {
+                background-color: white;
+                flex: 0 0 auto; /* запрещаем ужиматься карточкам */
+                width: 360px; /* фиксированная ширина */
+                height: 473px;
+
+
+                .directions-item-image {
+                    max-width: 100%;
+                    padding: 15px;
+                }
+
+                .directions-item-details {
+                    padding: 30px 15px 15px 15px; /*Создаем отступы*/
+                    position: relative;
+
+                    .directions-item-title {
+                        font-family: 'FatalTrialBold', sans-serif; /*Стиль текста*/
+                        font-size: 80px; /*Размер тектса*/
+                        position: absolute; /* Позиционирование */
+                        top: -45px;
+                        left: 187px;
+                        width: 89px;
+                        color: #8A8A8A;
+                        text-align: left;
+                    }
+
+                    .directions-item-text {
+                        font-family: 'openSansRegular', sans-serif;
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 40px;
+                        height: 198px;
+                    }
+
+                    .directions-item-extra {
+
+                        .orange-button {
+                            width: 180px;
+                            height: 50px;
+                            background-color: #FFA500;
+                            cursor: pointer;
+                            font-size: 16px;
+                            font-family: OpenSansRegular, sans-serif;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*section trainer slick*/
+.team {
+    padding: 60px 0 120px 0;
+    /*background-color: #FAFAFA;*/
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .swiper {
+            .team-title {
+                font-family: "OpenSansBold", sans-serif;
+                font-size: 48px;
+                line-height: 120%;
+                width: 778px;
+            }
+
+            .swiper-slide {
+                display: flex;
+                align-items: end;
+                justify-content: space-between;
+                gap: 40px;
+                background: #FAFAFA;
+
+                .descriptions-block {
+                    flex: 1 1 50%;
+                    max-width: 600px;
+
+                    .mySwiper-trainer-title {
+                        font-family: 'OpenSansRegular', sans-serif;
+                        font-size: 26px;
+                        line-height: 130%;
+                        margin-bottom: 30px;
+                    }
+
+                    .team-descriptions-trainer {
+                        display: grid;
+                        gap: 15px;
+
+                        p {
+                            font-size: 16px;
+                            font-family: "OpenSansRegular", sans-serif;
+                            line-height: 140%;
+                        }
+                    }
+
+                    .container-info-item {
+                        margin-top: 30px;
+
+                        ul {
+                            list-style: none;
+
+                            li {
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 10px;
+                                gap: 10px;
+                            }
+                        }
+                    }
+
+                    .directions-item-trainer {
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                        margin-top: 60px;
+                        /*flex-wrap: wrap; !* Для мобильной адаптации *!*/
+
+                        .button {
+                            width: 220px;
+                            height: 60px;
+                            background-color: #FFA500;
+                            cursor: pointer;
+                            font-size: 20px;
+                            font-family: OpenSansRegular, sans-serif;
+                            border: none;
+                        }
+
+                        .swiper-nav {
+                            display: flex;
+                            align-items: normal;
+                            gap: 70px;
+                            height: 60px;
+
+
+                            .swiper-button-prev {
+                                position: relative;
+                                color: #1F1F1F;
+
+                            }
+
+                            .swiper-button-next {
+                                position: relative;
+                                color: #1F1F1F;
+
+                            }
+                        }
+                    }
+
+                }
+
+                .description-images {
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: 95px;
+                        right: 50px;
+                        z-index: -1;
+                        width: 314px;
+                        height: 535px;
+                        background: #686868;
+                        box-shadow: 4px 4px 40px 0 #ACACAC;
+                    }
+
+                    .image-trainer {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 12px;
+                    }
+                }
+            }
+        }
+
+    }
+}

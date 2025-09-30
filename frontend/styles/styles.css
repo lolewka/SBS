@@ -399,8 +399,6 @@ body {
     grid-template-columns: repeat(3, 360px); /*Ставит в ряд блоки карточек*/
     /*gap: 61px; !*Создаем отступы карточек*!*/
     justify-content: space-between;
-
-
 }
 
 .directions-item {

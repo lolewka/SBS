@@ -64,6 +64,52 @@
         }
     }
 
+    .team {
+        padding-top: 30px;
+
+        .container {
+            .swiper {
+                .team-title {
+                    width: 688px;
+                }
+
+                .swiper-slide {
+                    flex-direction: column-reverse;
+                    align-items: center;
+
+                    .descriptions-block {
+                        .mySwiper-trainer-title {
+                            font-size: 22px;
+                        }
+
+                        .team-descriptions-trainer {
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .description-images {
+                        &::before {
+                            position: fixed;
+                            right: 197px;
+                            top: 44px;
+                            width: 263px;
+                            height: 467px;
+                        }
+
+                        .image-trainer {
+                            width: 334px;
+                            height: 500px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+
 }
 
 @media screen and (max-width: 712px) {
@@ -105,6 +151,26 @@
             }
         }
     }
+
+    .team {
+        .container {
+            .swiper {
+                .team-title {
+                    font-size: 40px;
+                }
+
+                .swiper-slide {
+                    .description-images {
+                        &::before {
+                            right: 169px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
 }
 
 
@@ -141,6 +207,29 @@
 
         }
     }
+
+    .team {
+        .container {
+            .swiper {
+                .team-title {
+                    max-width: 100%;
+                    text-align: center;
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+
+                .swiper-slide {
+                    .description-images {
+                        &::before {
+                            right: 90px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -159,8 +248,8 @@
                     display: none;
                 }
             }
-
         }
+
     }
 
     .main {
@@ -181,6 +270,47 @@
             }
         }
     }
+
+    .directions {
+        .container {
+            .directions-items {
+                gap: 15px;
+
+                .directions-item {
+                    width: 320px;
+
+                    .directions-item-image {
+                        img {
+                            width: 290px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+        .container {
+            .swiper {
+                .team-title {
+                    max-width: 100%;
+                    text-align: center;
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+
+                .swiper-slide {
+                    .description-images {
+                        &::before {
+                            right: 75px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -199,11 +329,12 @@
 
     .about {
         padding-bottom: 80px;
+
         .container {
             .about-info {
                 align-items: center;
                 flex-direction: column;
-                width: 300px;
+                /*width: 300px;*/
 
                 .about-info-text {
                     max-width: 100%;
@@ -247,6 +378,7 @@
                 .advantages-items {
                     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
                     gap: 25px;
+
                     .advantage-item {
                         .advantage-title {
                             .advantage-title-text {
@@ -265,4 +397,167 @@
         }
     }
 
+    .directions {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .container {
+            .common-title {
+                padding-top: 60px;
+                font-size: 38px;
+            }
+
+            .directions-items {
+                gap: 15px;
+
+                .directions-item {
+                    width: 320px;
+                    animation: hint-scroll 1.5s ease-in-out 1;
+
+
+                    .directions-item-image {
+                        img {
+                            width: 290px;
+
+                        }
+                    }
+
+                    .directions-item-details {
+                        .directions-item-extra {
+
+                            .orange-button {
+                                width: 290px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .team {
+        .container {
+            .swiper {
+                .team-title {
+                    max-width: 100%;
+                    text-align: center;
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+
+                .swiper-slide {
+                    .descriptions-block{
+                        width: 274px;
+
+                        .mySwiper-trainer-title{
+                            font-size: 26px;
+                            text-align: center;
+
+                        }
+
+                        .team-descriptions-trainer{
+                            max-width: 100%;
+                            font-size: 16px;
+
+                        }
+                        .directions-item-trainer{
+                            .swiper-nav {
+                                gap: 25px;
+                            }
+                        }
+
+                    }
+                    .description-images {
+                        max-width: 100%;
+
+                        &::before {
+                            right: 45px;
+                            width: 250px;
+                            height: 421px;
+                        }
+
+                        .image-trainer {
+                            width: 310px;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .team {
+        .container {
+            .swiper {
+                .team-title {
+                    max-width: 100%;
+                    text-align: center;
+                    font-size: 38px;
+                    margin-bottom: 40px;
+                }
+
+                .swiper-slide {
+                    .descriptions-block{
+                        width: 274px;
+
+                        .mySwiper-trainer-title{
+                            font-size: 26px;
+                            text-align: center;
+
+                        }
+
+                        .team-descriptions-trainer{
+                            max-width: 100%;
+                            font-size: 16px;
+
+                        }
+                        .directions-item-trainer{
+                            .swiper-nav {
+                                gap: 25px;
+                            }
+                        }
+
+                    }
+
+                    .description-images {
+                        max-width: 100%;
+
+                        &::before {
+                            right: 29px;
+                            width: 224px;
+                            height: 392px;
+                        }
+
+                        .image-trainer {
+                            width: 310px;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@keyframes hint-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-80px);
+    }
+    /* сместились влево */
+    70% {
+        transform: translateX(-80px);
+    }
+    /* чуть держим */
+    100% {
+        transform: translateX(0);
+    }
+    /* вернулись на место */
 }
