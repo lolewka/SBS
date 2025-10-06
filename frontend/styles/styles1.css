@@ -472,3 +472,515 @@ body {
 
     }
 }
+
+/*sections schedule-price*/
+
+
+.schedule-price {
+    padding: 40px 0 70px 0;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .schedule-price-title {
+            font-family: "OpenSansBold", sans-serif;
+            font-size: 48px;
+            /*line-height: 120%;*/
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .schedule-price-cards {
+            > h3 {
+                font-family: "OpenSansLight", sans-serif;
+                font-size: 26px;
+                /*line-height: 130%;*/
+                margin-bottom: 60px;
+                text-align: center;
+            }
+
+            .schedule-price-card {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 60px;
+
+                .product {
+                    width: 360px;
+                    /*box-shadow: 0 3px 14px 1.2px rgba(152, 152, 152, 0.2);*/
+                    text-align: center;
+                    background-color: #0C2965;
+                    padding: 52px 56px 52px 48px;
+                    box-sizing: border-box;
+
+                    .card-product-title {
+                        h3 {
+                            font-family: "FatalTrialBold", sans-serif;
+                            font-size: 60px;
+                            text-align: center;
+                            color: #E7E9ED;
+                            line-height: 120%;
+                        }
+                    }
+
+                    .card-product-text {
+                        p {
+                            font-family: 'OpenSansLight', sans-serif;
+                            font-size: 20px;
+                            color: #E7E9ED;
+
+                            &:first-child {
+                                margin-bottom: 45px;
+
+                                &:not(:last-child) {
+                                    margin-bottom: 40px;
+                                }
+                            }
+                        }
+
+
+                        .card-product-description {
+                            p {
+                                font-family: 'OpenSansLight', sans-serif;
+                                font-size: 16px;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 19px;
+                            }
+                        }
+                    }
+
+                    .orange-button {
+                        width: 180px;
+                        height: 50px;
+                        background-color: #FFA500;
+                        cursor: pointer;
+                        font-size: 16px;
+                        font-family: OpenSansRegular, sans-serif;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*section seasons-ticket*/
+
+.season-tickets {
+    padding: 70px 0 140px 0;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .season-tickets-price-title {
+            font-family: "OpenSansBold", sans-serif;
+            font-size: 48px;
+            text-align: center;
+            line-height: 83%;
+            margin-bottom: 40px;
+
+        }
+
+        .season-tickets-price-cards {
+            > h3 {
+                font-family: "OpenSansLight", sans-serif;
+                font-size: 26px;
+                line-height: 130%;
+                margin-bottom: 60px;
+                text-align: center;
+
+            }
+
+            .season-tickets-price-card {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 60px;
+
+                .product {
+                    width: 360px;
+                    /*box-shadow: 0 3px 14px 1.2px rgba(152, 152, 152, 0.2);*/
+                    text-align: center;
+                    background-color: #0C2965;
+                    padding: 52px 56px 52px 48px;
+                    box-sizing: border-box;
+
+                    .card-product-title {
+                        h3 {
+                            font-family: "FatalTrialBold", sans-serif;
+                            font-size: 60px;
+                            text-align: center;
+                            color: #E7E9ED;
+                            line-height: 120%;
+                        }
+                    }
+
+                    .card-product-text {
+                        p {
+                            font-family: 'OpenSansLight', sans-serif;
+                            font-size: 20px;
+                            color: #E7E9ED;
+
+                            &:first-child {
+                                margin-bottom: 45px;
+
+                                &:not(:last-child) {
+                                    margin-bottom: 40px;
+                                }
+                            }
+                        }
+
+
+                        .card-product-description {
+                            p {
+                                font-family: 'OpenSansLight', sans-serif;
+                                font-size: 16px;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 19px;
+                            }
+                        }
+                    }
+
+                    .orange-button {
+                        width: 180px;
+                        height: 50px;
+                        background-color: #FFA500;
+                        cursor: pointer;
+                        font-size: 16px;
+                        font-family: OpenSansRegular, sans-serif;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*contacts*/
+
+.contacts {
+    background-color: #D4DDF2;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .contacts-map {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            margin-right: 60px;
+
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+
+            }
+        }
+
+        .contacts-info {
+            display: flex;
+            flex-direction: column;
+            width: 568px;
+
+            .contacts-info-title {
+                font-family: "OpenSansBold", sans-serif;
+                font-size: 48px;
+                text-align: left;
+                margin-bottom: 60px;
+            }
+
+            .contacts-info-number {
+                display: flex;
+                align-items: center;
+                font-family: "OpenSansBold", sans-serif;
+                font-size: 20px;
+                text-align: left;
+                margin-bottom: 40px;
+
+                a {
+                    text-decoration: none;
+                    margin-left: 17px;
+                    color: black;
+                }
+            }
+
+            .contacts-info-address {
+                display: flex;
+                align-items: center;
+                font-family: "OpenSansBold", sans-serif;
+                font-size: 20px;
+                text-align: left;
+
+                a {
+                    text-decoration: none;
+                    margin-left: 17px;
+                    color: black;
+                }
+            }
+
+            .contacts-info-time {
+                display: flex;
+                flex-direction: column;
+                font-family: 'OpenSansLight', sans-serif;
+                font-size: 20px;
+                text-align: left;
+                line-height: 150%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+
+            .contacts-info-email {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+
+                a {
+                    text-decoration: none;
+                    font-family: 'OpenSansBold', sans-serif;
+                    font-size: 20px;
+                    text-align: left;
+                    margin-left: 17px;
+                    color: black;
+                }
+            }
+
+            .contacts-info-descriptions {
+                font-family: "OpenSansLight", sans-serif;
+                font-size: 16px;
+                text-align: left;
+                line-height: 140%;
+            }
+        }
+    }
+}
+
+/*section order*/
+
+.order {
+    margin-top: 140px;
+    background-color: #D4DDF2;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .order-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 100%;
+
+            form {
+                fieldset {
+                    border: none;
+                    width: 336px;
+                    padding-bottom: 80px;
+
+
+                    legend {
+                        font-family: "OpenSansLight", sans-serif;
+                        font-size: 20px;
+                        text-align: left;
+                        margin-bottom: 10px;
+                    }
+
+                    .checkbox-group {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 10px 20px; /* 10px — по вертикали, 20px — по горизонтали */
+                        margin-bottom: 20px;
+
+                        label {
+                            font-family: "OpenSansLight", sans-serif;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .order-contact {
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+
+                        .order-input-label {
+                            font-family: "OpenSansLight", sans-serif;
+                            font-size: 16px;
+                            margin-bottom: 25px;
+
+                            .order-input {
+                                padding-left: 15px;
+                                width: 360px;
+                                height: 60px;
+                                font-size: 20px;
+                                margin-bottom: 20px;
+                            }
+
+                        }
+                    }
+                }
+
+                .orange-button {
+                    width: 180px;
+                    height: 50px;
+                    background-color: #FFA500;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-family: OpenSansRegular, sans-serif;
+                    border: none;
+                }
+
+                .order-text-title {
+                    padding-top: 80px;
+                    font-family: "OpenSansRegular", sans-serif;
+                    font-size: 48px;
+                    text-align: left;
+                    margin-bottom: 60px;
+                }
+
+            }
+
+
+            .order-img {
+                max-width: 100%;
+
+                img {
+                    height: 600px;
+                    background-color: #020100;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+/*footer*/
+.footer {
+    margin-top: 140px;
+    padding: 80px 120px;
+    background-color: #212D44;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-logo {
+
+            .rights {
+                margin-top: 42px;
+                display: flex;
+                flex-direction: column;
+                font-family: "OpenSansLight", sans-serif;
+                font-size: 13px;
+                line-height: 140%;
+                color: #F1F3F6;
+
+                span {
+                    font-family: "OpenSansLight", sans-serif;
+                    font-size: 13px;
+                    color: #BBB;
+                }
+            }
+        }
+
+        .footer-menu {
+
+            ul {
+                list-style: none;
+
+                li {
+                    margin-bottom: 20px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-family: "OpenSansLight", sans-serif;
+                        font-size: 20px;
+                        color: #F1F3F6;
+                        line-height: 30px;
+                    }
+
+                }
+            }
+        }
+
+        .footer-contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .footer-contacts {
+
+
+                .footer-contacts-info-number {
+                    display: flex;
+                    align-items: center;
+                    font-family: "OpenSansBold", sans-serif;
+                    font-size: 20px;
+                    text-align: left;
+                    margin-bottom: 20px;
+                    color: #F1F3F6;
+                    a {
+                        text-decoration: none;
+                        margin-left: 17px;
+                        color: #F1F3F6;
+                    }
+                }
+
+                .footer-contacts-info-address {
+                    display: flex;
+                    align-items: center;
+                    font-family: "OpenSansLight", sans-serif;
+                    font-size: 20px;
+                    text-align: left;
+                    color: #F1F3F6;
+                    a {
+                        text-decoration: none;
+                        margin-left: 17px;
+                        color: white;
+                    }
+                }
+
+                .footer-contacts-info-email {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    a {
+                        text-decoration: none;
+                        font-family: 'OpenSansLight', sans-serif;
+                        font-size: 20px;
+                        text-align: left;
+                        margin-left: 17px;
+                        color: #F1F3F6;
+
+                    }
+                }
+            }
+
+            .footer-social {
+                display: flex;
+                justify-content: space-between;
+            }
+
+        }
+    }
+}

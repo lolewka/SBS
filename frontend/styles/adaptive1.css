@@ -4,6 +4,7 @@
         padding-right: 15px;
     }
 
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,6 +13,37 @@
         padding-right: 15px;
     }
 
+    .order {
+
+        .container {
+
+
+            .order-text {
+                flex-direction: column;
+                align-items: center;
+
+                .order-img {
+                    max-width: 100%;
+
+                    img {
+                        height: 500px;
+                        background-color: #020100;
+                    }
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+
+    .footer {
+        padding: 80px 40px;
+
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -109,6 +141,100 @@
         }
     }
 
+    .season-tickets {
+        padding-top: 40px;
+
+        .container {
+            .season-tickets-price-cards {
+                > h3 {
+                    font-size: 22px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+
+    .contacts {
+        .container {
+            align-items: unset;
+
+            .contacts-map {
+                margin-right: 15px;
+
+            }
+
+            .contacts-info {
+                .contacts-info-number {
+                    font-size: 16px;
+                }
+
+                .contacts-info-address {
+                    font-size: 16px;
+                }
+
+                .contacts-info-email {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+
+                .contacts-info-descriptions {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .order {
+
+        .container {
+
+
+            .order-text {
+                flex-direction: column;
+                align-items: center;
+
+                form {
+                    width: 100%;
+
+                    fieldset {
+                    }
+                }
+
+                .order-img {
+                    max-width: 100%;
+
+                    img {
+                        height: 400px;
+                    }
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+
+    .footer {
+        .container {
+            .footer-logo {
+                width: 166px;
+
+            }
+
+            .footer-menu {
+                width: 130px;
+            }
+
+            .footer-contact-info {
+                width: 218px;
+            }
+
+        }
+    }
 
 }
 
@@ -193,6 +319,53 @@
         }
     }
 
+    .contacts {
+        .container {
+            flex-direction: column-reverse;
+
+            .contacts-info {
+                align-items: center;
+                width: 100%;
+                margin-bottom: 50px;
+
+                .contacts-info-descriptions {
+                    width: 333px;
+                    text-align: center;
+                }
+
+            }
+
+        }
+    }
+
+    .footer {
+        margin-top: 0px;
+        padding: 40px 0 0 0;
+
+        .container {
+            gap: 40px;
+            flex-direction: column;
+
+            .footer-logo {
+                display: contents;
+                order: 1;
+                width: 100%;
+                text-align: center;
+                .rights{
+                    margin-top: 0;
+                    order: 5;
+                }
+
+            }
+            .footer-menu{
+                order:2
+            }
+            .footer-contact-info{
+                gap: 25px;
+                order:3;
+            }
+        }
+    }
 
 }
 
@@ -310,6 +483,120 @@
             }
 
         }
+    }
+
+    .schedule-price {
+        padding-top: 0;
+
+        .container {
+            .schedule-price-title {
+                font-size: 38px;
+                margin-bottom: 25px;
+            }
+
+            .schedule-price-cards {
+
+                > h3 {
+                    font-size: 22px;
+                    margin-bottom: 40px;
+                }
+
+                .schedule-price-card {
+                    gap: 30px;
+
+                    .product {
+                        max-width: 100%;
+                        padding: 41px 41px;
+
+                        .card-product-title {
+                            font-size: 45px;
+                        }
+
+                        .card-product-text {
+                            p {
+                                font-size: 16px;
+
+                                &:first-child {
+                                    margin-bottom: 40px;
+
+                                    &:not(:last-child) {
+                                        margin-bottom: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contacts {
+
+        .container {
+            .contacts-info {
+                padding-top: 60px;
+                display: block;
+
+                .contacts-info-title {
+                    margin-bottom: 40px;
+                    text-align: center;
+
+                }
+
+                .contacts-info-number {
+                    margin-bottom: 25px;
+
+                }
+
+                .contacts-info-address {
+                    font-size: 16px;
+
+                }
+
+                .contacts-info-time {
+                    font-size: 20px;
+                    margin-top: 20px;
+                    margin-bottom: 25px;
+                }
+
+                .contacts-info-email {
+                    margin-bottom: 20px;
+
+                    a {
+                        font-size: 16px;
+                    }
+                }
+
+                .contacts-info-descriptions {
+                    font-size: 14px;
+                    text-align: left;
+                }
+            }
+        }
+
+    }
+
+    .order {
+
+        .container {
+
+
+            .order-text {
+                .order-img {
+                    display: none;
+
+                    img {
+                    }
+
+                }
+
+
+            }
+
+
+        }
+
     }
 }
 
@@ -447,27 +734,29 @@
                 }
 
                 .swiper-slide {
-                    .descriptions-block{
+                    .descriptions-block {
                         width: 274px;
 
-                        .mySwiper-trainer-title{
+                        .mySwiper-trainer-title {
                             font-size: 26px;
                             text-align: center;
 
                         }
 
-                        .team-descriptions-trainer{
+                        .team-descriptions-trainer {
                             max-width: 100%;
                             font-size: 16px;
 
                         }
-                        .directions-item-trainer{
+
+                        .directions-item-trainer {
                             .swiper-nav {
                                 gap: 25px;
                             }
                         }
 
                     }
+
                     .description-images {
                         max-width: 100%;
 
@@ -487,6 +776,114 @@
 
         }
     }
+
+    .season-tickets {
+        .container {
+            .season-tickets-price-title {
+                font-size: 38px;
+            }
+
+            .season-tickets-price-cards {
+                > h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .contacts {
+        .container {
+            .contacts-info {
+                .contacts-info-title {
+                    margin-bottom: 35px;
+                    text-align: center;
+                }
+
+                .contacts-info-number {
+                    margin-bottom: 20px;
+
+                }
+
+                .contacts-info-address {
+                    font-size: 14px;
+
+                }
+
+                .contacts-info-time {
+                    font-size: 18px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                .contacts-info-email {
+                    margin-bottom: 20px;
+
+                    a {
+                        font-size: 14px;
+                    }
+                }
+
+                .contacts-info-descriptions {
+                    font-size: 12px;
+                    text-align: left;
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    .order {
+        margin-top: 0px;
+
+        .container {
+            .order-text {
+                form {
+                    .order-text-title {
+                        text-align: center;
+                        font-size: 38px;
+                    }
+
+                    fieldset {
+                        width: 310px;
+
+                        legend {
+                            font-size: 16px;
+
+                        }
+
+                        .checkbox-group {
+                            label {
+                                font-size: 14px;
+
+                            }
+
+                        }
+
+                        .order-contact {
+                            margin-bottom: 10px;
+
+                            .order-input-label {
+                                margin-bottom: 0px;
+
+                                .order-input {
+                                    width: 310px;
+                                }
+                            }
+                        }
+
+                        .orange-button {
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -502,21 +899,22 @@
                 }
 
                 .swiper-slide {
-                    .descriptions-block{
+                    .descriptions-block {
                         width: 274px;
 
-                        .mySwiper-trainer-title{
+                        .mySwiper-trainer-title {
                             font-size: 26px;
                             text-align: center;
 
                         }
 
-                        .team-descriptions-trainer{
+                        .team-descriptions-trainer {
                             max-width: 100%;
                             font-size: 16px;
 
                         }
-                        .directions-item-trainer{
+
+                        .directions-item-trainer {
                             .swiper-nav {
                                 gap: 25px;
                             }
@@ -543,7 +941,94 @@
 
         }
     }
+
+    .schedule-price {
+        padding-top: 0;
+
+        .container {
+            .schedule-price-title {
+                font-size: 38px;
+                margin-bottom: 25px;
+            }
+
+            .schedule-price-cards {
+
+                > h3 {
+                    font-size: 22px;
+                    margin-bottom: 40px;
+                }
+
+                .schedule-price-card {
+                    max-width: 100%;
+                    gap: 20px;
+
+                    .product {
+                        max-width: 100%;
+                        padding: 41px 41px;
+
+                        .card-product-title {
+                            font-size: 45px;
+                        }
+
+                        .card-product-text {
+                            p {
+                                font-size: 14px;
+
+                                &:first-child {
+                                    margin-bottom: 40px;
+
+                                    &:not(:last-child) {
+                                        margin-bottom: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .season-tickets {
+        .container {
+            .season-tickets-price-title {
+                font-size: 38px;
+            }
+
+            .season-tickets-price-cards {
+                > h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .order {
+        .container {
+            .order-text {
+                form {
+
+                    fieldset {
+                        width: 290px;
+
+                        .order-contact {
+                            .order-input-label {
+                                .order-input {
+                                    width: 290px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
 }
+
 @keyframes hint-scroll {
     0% {
         transform: translateX(0);
