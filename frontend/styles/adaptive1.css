@@ -351,18 +351,21 @@
                 order: 1;
                 width: 100%;
                 text-align: center;
-                .rights{
+
+                .rights {
                     margin-top: 0;
                     order: 5;
                 }
 
             }
-            .footer-menu{
-                order:2
+
+            .footer-menu {
+                order: 2
             }
-            .footer-contact-info{
+
+            .footer-contact-info {
                 gap: 25px;
-                order:3;
+                order: 3;
             }
         }
     }
@@ -601,14 +604,34 @@
 }
 
 @media screen and (max-width: 375px) {
+    .header {
+        padding-top: 40px;
+    }
+
     .main {
+        padding: 158px 0 208px 0;
+
         .container {
             padding-left: 15px;
             padding-right: 15px;
 
             .main-info {
                 .main-info-title {
-                    width: 300px;
+                    margin-bottom: 26px;
+                    width: 244px;
+                }
+
+                .main-info-description {
+                    width: 309px;
+                    margin-bottom: 60px;
+                }
+
+                .main-info-actions {
+                    .button {
+                        width: 180px;
+                        height: 60px;
+                        font-size: 16px;
+                    }
                 }
             }
         }
@@ -629,11 +652,20 @@
                     .about-info-title {
                         font-size: 38px;
                         margin-top: 80px;
+                        margin-bottom: 40px;
+
                     }
 
                     .about-info-descriptions {
-                        text-align: center;
+                        text-align: left;
                         font-size: 14px;
+                        width: 334px;
+
+                        p {
+                            &:last-child {
+                                margin-bottom: 40px;
+                            }
+                        }
                     }
                 }
 
@@ -659,6 +691,7 @@
         .container {
             .advantages-info {
                 .advantages-title {
+                    margin-bottom: 40px;
                     font-size: 38px;
                 }
 
@@ -668,6 +701,8 @@
 
                     .advantage-item {
                         .advantage-title {
+                            margin-bottom: 10px;
+
                             .advantage-title-text {
                                 font-size: 16px;
                             }
@@ -685,8 +720,8 @@
     }
 
     .directions {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 10px;
+        padding-bottom: 50px;
 
         .container {
             .common-title {
@@ -696,6 +731,7 @@
 
             .directions-items {
                 gap: 15px;
+                padding-bottom: 60px;
 
                 .directions-item {
                     width: 320px;
@@ -724,6 +760,8 @@
     }
 
     .team {
+        padding-bottom: 80px;
+
         .container {
             .swiper {
                 .team-title {
@@ -777,15 +815,34 @@
         }
     }
 
+    .schedule-price {
+        padding-bottom: 60px;
+
+        .container {
+            .schedule-price-cards {
+                .schedule-price-card {
+                    gap: 20px;
+                }
+            }
+        }
+    }
+
     .season-tickets {
+        padding-bottom: 80px;
+
         .container {
             .season-tickets-price-title {
+                margin-bottom: 25px;
                 font-size: 38px;
             }
 
             .season-tickets-price-cards {
                 > h3 {
                     font-size: 22px;
+                }
+
+                .season-tickets-price-card {
+                    gap: 20px;
                 }
             }
         }
@@ -795,12 +852,12 @@
         .container {
             .contacts-info {
                 .contacts-info-title {
-                    margin-bottom: 35px;
+                    margin-bottom: 40px;
                     text-align: center;
                 }
 
                 .contacts-info-number {
-                    margin-bottom: 20px;
+                    margin-bottom: 25px;
 
                 }
 
@@ -812,7 +869,7 @@
                 .contacts-info-time {
                     font-size: 18px;
                     margin-top: 20px;
-                    margin-bottom: 20px;
+                    margin-bottom: 25px;
                 }
 
                 .contacts-info-email {
@@ -824,7 +881,7 @@
                 }
 
                 .contacts-info-descriptions {
-                    font-size: 12px;
+                    font-size: 14px;
                     text-align: left;
                     width: 100%;
                 }
@@ -842,10 +899,13 @@
                     .order-text-title {
                         text-align: center;
                         font-size: 38px;
+                        padding-top: 60px;
+                        margin-bottom: 40px;
                     }
 
                     fieldset {
-                        width: 310px;
+                        width: 100%;
+                        padding-bottom: 60px;
 
                         legend {
                             font-size: 16px;
@@ -861,13 +921,18 @@
                         }
 
                         .order-contact {
-                            margin-bottom: 10px;
+                            margin-bottom: 25px;
+                            align-items: stretch;
+                            width: 100%;
 
                             .order-input-label {
+                                width: 100%;
                                 margin-bottom: 0px;
 
+
                                 .order-input {
-                                    width: 310px;
+                                    width: 100%;
+                                    /*width: 310px;*/
                                 }
                             }
                         }
@@ -882,6 +947,12 @@
 
 
         }
+
+    }
+
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
 
     }
 }
